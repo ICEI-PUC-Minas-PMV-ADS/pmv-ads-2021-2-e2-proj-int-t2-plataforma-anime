@@ -6,12 +6,11 @@
 |:-----------:|:---------:|:-------------:|:---------------------------------:|:--------------:|:----------------:|:------------:|
 |Carlos Eduardo|15|Estudante do ensino médio. Gosta de jogos online e possui facilidade para uso de internet.|Instagram, Netflix, Amazon Prime, Crunchyroll, Youtube|Acompanhar de forma organizada os animes que está assistindo e conhecer novos animes.|Ficar perdido quanto ao episódio  que está no momento.|Filmes e séries, taekwondo|
 |Maria Julia|29| Fisioterapeuta, apaixonada por animes de suspense, faz uso computador no dia a dia, possui facilidade para o uso da internet.|Instagram, Netflix, Animes Fire, Uber, Ifood|Conseguir filtrar os melhores animes de acordo com o gênero que ela mais gosta, suspense e conhecer novos animes|Conseguir feedbacks reais a respeito da qualidade dos animes.|Caminhadas ao ar livre e Ir ao cinema|
-   
+|Ana Laura|19|Auxiliar de estoque, possui uma rotina intensa de trabalho, precisando se organizar dentro das suas atividades. Informa aptidão no uso da internet.|Instagram, Netflix, Nubank, Twitter, Ifood|Encontrar um lugar onde eu consiga interagir com outros usuários dando notas para meus animes favoritos.|Não consigo encontrar um local exclusivo para catalogar e falar sobre animes.|Ir a restaurantes e Ouvir músicas|
+|João Paulo|45|Analista de sistemas em empresa de grande porte, otaku. Trabalha diariamente com tecnologia, por isso tem facilidade no uso da internet.|Facebook, Amazon Prime, Inter, Twitter, Ifood|Ter acesso a uma plataforma onde fosse possível catalogar os animes que já assisti.|Não tenho a possibilidade de fazer uma lista de animes para assistir no futuro.|Estudar inglês, andar de bicicleta, maratonar meus animes favoritos|
 
 
 
-
- 
 
 
 ## Histórias de Usuários
