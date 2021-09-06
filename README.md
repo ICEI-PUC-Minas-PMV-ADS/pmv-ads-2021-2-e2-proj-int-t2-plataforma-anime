@@ -1,23 +1,23 @@
-# TÍTULO DO PROJETO
+# Projeto plataforma Anime
 
-`CURSO`
+`Analise e desenvolvimento de sistemas`
 
-`DISCIPLINA`
-
-`SEMESTRE`
+`Segundo Semestre`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Bruno Castanheira Marquezine
+* Gustavo Santos de Carvalho
+* Igor Giovane da Costa
+* Lais Vitória Andrade Silva
+* Lorena Andrade Silva
+* Pablo Djorkaeff dos Santos 
 
 ## Orientador
 
-* Nome completo do professor 1
+* Rosilane Mota
 
 ## Instruções de utilização
 
