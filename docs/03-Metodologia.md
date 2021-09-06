@@ -48,22 +48,17 @@ Apresente a divisão de papéis entre os membros do grupo.
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub estruturado com as seguintes listas: <br>
 
-### Ferramentas
-
-
-Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub estruturado com as seguintes listas:
 *	Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas à lista. 
 *	Para fazer: representa o Sprint Backlog - Sprint atual que estamos trabalhando. 
 * Fazendo: quando uma tarefa é iniciada, ela é movida para esta lista. 	
 * Teste: checagem de Qualidade (CQ). Quando as tarefas são concluídas, elas são movidas para o CQ. No final da semana, essa lista passa por revisão para garantir que tudo está correto. 	
 * Feito: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontas para serem entregues ao usuário. Não há mais edições ou revisões a serem feitas. A tarefa está agendada e pronta para a ação.
 * Bloqueado: quando alguma coisa impede a conclusão da tarefa, ela é movida para esta lista juntamente com um comentário sobre o que está impedindo a realização da tarefa.
+
+
+### Ferramentas
+
+
 
