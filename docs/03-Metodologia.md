@@ -1,11 +1,9 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+Nesta seção, apresentaremos a relação de ambiente(s) de trabalho e as plataformas utilizadas, a gestão de código fonte e, por fim, o gerenciamento do projeto.
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
-
-## Controle de Versão
+### Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
 [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
@@ -50,7 +48,7 @@ A equipe está organizada da seguinte maneira <br>
                               Lorena Andrade Silva <br>
                               Pablo Djorkaeff dos Santos <br>
                              
-● Equipe de Design: <br>
+* Equipe de Design: <br>
                               Bruno Castanheira Marquezine <br>
                               Gustavo Santos de Carvalho <br>
                               Igor Giovane da Costa <br>
@@ -71,6 +69,17 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 
 ### Ferramentas
+
+Para o desenvolvimento da aplicação, serão utilizadas as seguintes plataformas: 
+
+|`Ambiente`|`Plataforma` |`Link de Acesso` |
+|:------------------:|:------------------:|:------------------:|
+|Desenvolvimento do código|||
+|Repositório de código fonte|GitHub||
+|Documentos do projeto|Google Drive||
+|Projeto de Interface|MarvelApp||
+|Wireframes|Canva||
+|Gerenciamento do Projeto|GitHub||
 
 
 
