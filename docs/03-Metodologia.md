@@ -24,14 +24,7 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+A ferramenta de gestão de projeto e versionamento escolhida, foi o `Gihub` e o `Git`por estarem mais perto do dia a dia dos integrantes do grupo e por serem mais utilizadas no mercado. As `issues` estão sendo gerenciadas pelo Scrum Master do projeto e o `Backlog`, está sendo gerenciado por PO e SM. As tarefas são distribuidas de acordo com as demandas discutidas nas reuniões de segunda com a nossa orientadora. 
 
 ## Gerenciamento de Projeto
 
@@ -74,12 +67,12 @@ Para o desenvolvimento da aplicação, serão utilizadas as seguintes plataforma
 
 |`Ambiente`|`Plataforma` |`Link de Acesso` |
 |:------------------:|:------------------:|:------------------:|
-|Desenvolvimento do código|||
-|Repositório de código fonte|GitHub||
-|Documentos do projeto|Google Drive||
+|Desenvolvimento do código|VS code||
+|Repositório de código fonte|GitHub|https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime|
+|Documentos do projeto|Google Drive|https://docs.google.com/document/d/1yOVHI558cE0wVAQ3fvDRtdO_p0sGs6XfRDbaWQxFyjs/edit|
 |Projeto de Interface|MarvelApp||
 |Wireframes|Canva||
-|Gerenciamento do Projeto|GitHub||
+|Gerenciamento do Projeto|GitHub|https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime|
 
 
 
