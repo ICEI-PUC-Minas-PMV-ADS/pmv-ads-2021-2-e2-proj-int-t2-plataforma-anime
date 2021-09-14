@@ -11,8 +11,10 @@ foi utilizado para hospedagem do repositório.
 
 O projeto segue a seguinte convenção para o nome de branches:
 
+Toda a documentação ficará na branche `main` o que engloba também possiveis alterações da mesma. 
+Quanto ao desenvolvimento: 
+
 - `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
 - `testing`: versão em testes do software
 - `dev`: versão de desenvolvimento do software
 
@@ -21,8 +23,7 @@ etiquetas:
 
 - `documentation`: melhorias ou acréscimos à documentação
 - `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
+- `feature`: uma nova funcionalidade que será introduzida
 
 A ferramenta de gestão de projeto e versionamento escolhida, foi o `Gihub` e o `Git`por estarem mais perto do dia a dia dos integrantes do grupo e por serem mais utilizadas no mercado. As `issues` estão sendo gerenciadas pelo Scrum Master do projeto e o `Backlog`, está sendo gerenciado por PO e SM. As tarefas são distribuidas de acordo com as demandas discutidas nas reuniões de segunda com a nossa orientadora. 
 
