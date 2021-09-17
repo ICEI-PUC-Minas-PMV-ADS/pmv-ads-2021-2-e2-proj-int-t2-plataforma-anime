@@ -32,9 +32,9 @@ A ferramenta de gestão de projeto e versionamento escolhida, foi o `Gihub` e o 
 ### Divisão de Papéis
 A equipe está organizada da seguinte maneira <br>
 
-* Scrum Master: Lorena Andrade Silva <br>
-* Product Owner: Igor Giovane da Costa e Lais Vitoria Andrade Silva <br>
-* Equipe de Desenvolvimento: <br>
+* *Scrum Master:* Lorena Andrade Silva <br>
+* *Product Owner:* Igor Giovane da Costa e Lais Vitoria Andrade Silva <br>
+* *Equipe de Desenvolvimento:* <br>
                               Bruno Castanheira Marquezine <br>
                               Gustavo Santos de Carvalho <br>
                               Igor Giovane da Costa <br>
@@ -42,7 +42,7 @@ A equipe está organizada da seguinte maneira <br>
                               Lorena Andrade Silva <br>
                               Pablo Djorkaeff dos Santos <br>
                              
-* Equipe de Design: <br>
+* *Equipe de Design:* <br>
                               Bruno Castanheira Marquezine <br>
                               Gustavo Santos de Carvalho <br>
                               Igor Giovane da Costa <br>
@@ -72,7 +72,7 @@ Para o desenvolvimento da aplicação, serão utilizadas as seguintes plataforma
 |Repositório de código fonte|GitHub|https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime|
 |Documentos do projeto|Google Drive|https://docs.google.com/document/d/1yOVHI558cE0wVAQ3fvDRtdO_p0sGs6XfRDbaWQxFyjs/edit|
 |Projeto de Interface|MarvelApp||
-|Wireframes|Canva||
+|Wireframes|Canva|https://www.figma.com/file/aPO00iT2vJCD3SybqEbICd/Untitled?node-id=0%3A1|
 |Gerenciamento do Projeto|GitHub|https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime|
 
 
