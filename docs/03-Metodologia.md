@@ -15,17 +15,18 @@ Toda a documentação ficará na branche `main` o que engloba também possiveis 
 Quanto ao desenvolvimento: 
 
 - `main`: versão estável já testada do software
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+- `teste`: versão em testes do software
+- `desenv`: versão de desenvolvimento do software
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
 
 - `documentation`: melhorias ou acréscimos à documentação
 - `bug`: uma funcionalidade encontra-se com problemas
-- `feature`: uma nova funcionalidade que será introduzida
+- `feature`: uma funcionalidade que será introduzida
 
-A ferramenta de gestão de projeto e versionamento escolhida, foi o `Gihub` e o `Git`por estarem mais perto do dia a dia dos integrantes do grupo e por serem mais utilizadas no mercado. As `issues` estão sendo gerenciadas pelo Scrum Master do projeto e o `Backlog`, está sendo gerenciado por PO e SM. As tarefas são distribuidas de acordo com as demandas discutidas nas reuniões de segunda com a nossa orientadora. 
+A ferramenta de gestão de projeto e versionamento escolhida, foi o `Gihub` e o `Git`por estarem mais perto do dia a dia dos integrantes do grupo e por serem mais utilizadas no mercado. 
+As `issues` estão sendo gerenciadas pelo Scrum Master do projeto e o `Backlog`, está sendo gerenciado por PO e SM. As tarefas são distribuidas de acordo com as demandas discutidas nas reuniões de segunda com a nossa orientadora. 
 
 ## Gerenciamento de Projeto
 
@@ -52,13 +53,13 @@ A equipe está organizada da seguinte maneira <br>
 
 ### Processo
 
-Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub estruturado com as seguintes listas: <br>
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub correspondendo com as seguintes listas: <br>
 
-*	Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas à lista. 
-*	Para fazer: representa o Sprint Backlog - Sprint atual que estamos trabalhando. 
-* Fazendo: quando uma tarefa é iniciada, ela é movida para esta lista. 	
-* Teste: checagem de Qualidade (CQ). Quando as tarefas são concluídas, elas são movidas para o CQ. No final da semana, essa lista passa por revisão para garantir que tudo está correto. 	
-* Feito: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontas para serem entregues ao usuário. Não há mais edições ou revisões a serem feitas. A tarefa está agendada e pronta para a ação.
+*	Backlog: que recebe as tarefas a serem trabalhadas e todas as atividades identificadas como tarefas no decorrer do projeto também devem ser incorporadas à lista. 
+*	Para fazer: representa a Sprint atual que estamos trabalhando. 
+* Fazendo: quando uma tarefa é iniciada, ela devera ser movida para esta lista. 	
+* Teste: Quando as tarefas funcionais e não funcionais são realizadas, elas devem ser movidas para esta coluna, indicando que estão disponíveis para serem testadas.  	
+* Feito: nesta lista são colocadas as tarefas que passaram pelos testes e estão prontas para serem entregues ao usuário. Neste caso, não há edições ou revisões a serem feitas.
 * Bloqueado: quando alguma coisa impede a conclusão da tarefa, ela é movida para esta lista juntamente com um comentário sobre o que está impedindo a realização da tarefa.
 
 
