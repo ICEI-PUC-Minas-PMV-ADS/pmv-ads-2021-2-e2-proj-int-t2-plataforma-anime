@@ -35,7 +35,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-03| O site deve possibilitar que o usuário marque em qual episódio da temporada e em qual temporada ele está.| `ALTA`|
 |RF-04| O site deve apresentar um formulário para cadastro de novos usuários| `ALTA`|
 |RF-05| O site deve permitir que o usuário avalie as obras que desejar.| `ALTA`|
-|RF-06| O site deve permitir que o usuário crie uma lista de animes para assistir no futuro. | `MÉDIA` |
+|RF-06| O site deve permitir que o usuário crie uma lista de animes com os descritores *finalizado, em andamento e assistir depois* | `MÉDIA` |
 |RF-07| O site deve emitir uma lista com o nome” minha lista de animes”. | `MÉDIA` |
 |RF-08|O site deverá conter sinopse dos animes.| `BAIXA` |
 
