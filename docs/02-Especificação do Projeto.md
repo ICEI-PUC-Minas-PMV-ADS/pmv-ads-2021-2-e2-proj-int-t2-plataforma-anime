@@ -69,6 +69,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 A seguir encontram-se os Casos de Uso e o Diagrama de Casos de Uso.
 
 | Caso de Uso| Descrição|
+|:-----------:|:---------:|
 |Fazer login|Recebe as credenciais já cadastradas do usuário e em seguida é encaminhado para Verificar Credenciais.|
 |Verificar Credenciais|Verifica e valida as credenciais do usuário. Caso estejam incorretas então o sistema irá exibir erro de login.|
 |Avaliar animes|Registra a avaliação feita pelo usuário em determinada obra.|
