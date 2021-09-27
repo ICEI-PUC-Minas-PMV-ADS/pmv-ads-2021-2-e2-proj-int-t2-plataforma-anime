@@ -16,11 +16,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Eu, Carlos Eduardo, como fã de animês|quero marcar em qual episódio da temporada e em qual temporada de um determinado anime eu estou|para conseguir me organizar com os muitos títulos que assisto e não me perder nos episódios.|
-|Eu, Maria Julia, Fisioterapeuta e amante de animes|quero conseguir ver feedbacks de vários animes| para encontrar novas obras para acompanhar.|
-|Eu Ana Laura, como admiradora de animes | desejo criar uma lista e catalogar as obras que venho assistindo e interagir com demais usuários| para me organizar melhor e trocar experiências com outras pessoas | 
-|Eu, João Paulo, funcionário de um empresa de grande porte e com pouco tempo para assistir animes|desejo ter a possibilidade de criar  listas com animes que desejo assistir|para que futuramente eu possa seguir minha lista e assistir os animes que desejo.|
-|Eu, Lucas Silva, Professor de biologia no ensino médio, descendente de japoneses, fã de animes do gênero esportivo|desejo ter a possibilidade de compartilhar minha lista de anime com os meus amigos e filhos|para conhecer novos animes e também acompanhar o que meus amigos estão assistindo.|  
+|Eu, Carlos Eduardo|quero marcar em qual episódio da temporada e em qual temporada de um determinado anime eu estou|para conseguir me organizar com os muitos títulos que assisto e não me perder nos episódios.|
+|Eu, Maria Julia|quero conseguir ver feedbacks de vários animes| para encontrar novas obras para acompanhar.|
+|Eu Ana Laura| desejo criar uma lista e catalogar as obras que venho assistindo e interagir com demais usuários| para me organizar melhor e trocar experiências com outras pessoas | 
+|Eu, João Paulo|desejo ter a possibilidade de criar  listas com animes que desejo assistir|para que futuramente eu possa seguir minha lista e assistir os animes que desejo.|
+|Eu, Lucas Silva|desejo ter a possibilidade de compartilhar minha lista de anime com os meus amigos e filhos|para conhecer novos animes e também acompanhar o que meus amigos estão assistindo.|  
 
 ## Requisitos
 
