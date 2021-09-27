@@ -6,13 +6,14 @@ Nesta seção são especificados os detalhes técnicos do projeto, abordando com
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
-![Diagrama de classes](C:\Users\Igor\Desktop\Archives\Front End\Projetos  PUC\2° Semestre\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Imagens do Documento\diagrama de classses.jpg)
+![diagrama de classses](https://user-images.githubusercontent.com/78181968/134985712-8d241f6a-02c6-48f6-9997-28878f8c0aaf.jpg)
+
 
 ## Diagrama ER
 
 O Diagrama Entidade Relacionamento representa como as entidades se relacionam na aplicação interativa.
 
-![Diagrama ER](C:\Users\Igor\Desktop\Archives\Front End\Projetos  PUC\2° Semestre\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Imagens do Documento\ER diagram.png)
+![ER diagram](https://user-images.githubusercontent.com/78181968/134986086-2ce88db3-6768-4e7e-be2d-ef91a7747e25.png)
 
 ## Modelo Relacional
 
@@ -20,11 +21,11 @@ O Modelo Relacional corresponde à representação dos dados em tabelas juntamen
 
 - USUARIOS (<u>id_usuario</u>, nome, status, email, senha)
 
-- LISTA_ANIMES (<u>id_lista</u>, id_usuario, id_anime, avaliacao)
-    id_usuario referencia USUARIOS
+- LISTA_ANIMES (<u>id_lista</u>, id_usuario, id_anime, avaliacao) <br>
+    id_usuario referencia USUARIOS <br>
     id_anime referencia ANIMES
 
-- ANIMES (<u>id_anime</u>, nome, descricao, id_genero)
+- ANIMES (<u>id_anime</u>, nome, descricao, id_genero)<br>
     id_genero referencia GENERO_ANIME
 
 - GENERO_ANIME (<u>id_genero</u>, nome, descricao)
@@ -37,5 +38,4 @@ Apresente também uma figura explicando como as tecnologias estão relacionadas 
 
 ## Hospedagem
 
-.
 
