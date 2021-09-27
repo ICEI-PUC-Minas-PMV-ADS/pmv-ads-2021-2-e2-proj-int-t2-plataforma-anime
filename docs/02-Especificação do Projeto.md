@@ -10,26 +10,17 @@
 |João Paulo|45|Analista de sistemas em empresa de grande porte, otaku. Trabalha diariamente com tecnologia, por isso tem facilidade no uso da internet.|Facebook, Amazon Prime, Inter, Twitter, Ifood|Ter acesso a uma plataforma onde fosse possível catalogar os animes que já assisti.|Não tenho a possibilidade de fazer uma lista de animes para assistir no futuro.|Estudar inglês, andar de bicicleta, maratonar meus animes favoritos|
 
 
-
-
-
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|Eu, Carlos Eduardo, como fã de animês|quero marcar em qual episódio da temporada e em qual temporada de um determinado anime eu estou|para conseguir me organizar com os muitos títulos que assisto e não me perder nos episódios.|
+|Eu, Maria Julia, Fisioterapeuta e amante de animes|quero conseguir ver feedbacks de vários animes| para encontrar novas obras para acompanhar.|
+|Eu Ana Laura, como admiradora de animes | desejo criar uma lista e catalogar as obras que venho assistindo e interagir com demais usuários| para me organizar melhor e trocar experiências com outras pessoas | 
+|Eu, João Paulo, funcionário de um empresa de grande porte e com pouco tempo para assistir animes|desejo ter a possibilidade de criar  listas com animes que desejo assistir|para que futuramente eu possa seguir minha lista e assistir os animes que desejo.|
+|Eu, Lucas Silva, Professor de biologia no ensino médio, descendente de japoneses, fã de animes do gênero esportivo|desejo ter a possibilidade de compartilhar minha lista de anime com os meus amigos e filhos|para conhecer novos animes e também acompanhar o que meus amigos estão assistindo.|  
 
 ## Requisitos
 
@@ -39,30 +30,28 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-01| O site deve apresentar uma página de login para usuários já cadastrados com a opção de cadastro para novos usuários.| `ALTA` | 
+|RF-02| O site deve permitir uma pesquisa por nome de animes possibilitando o uso dos filtros gênero, autor, estúdio e nota| `ALTA`  |
+|RF-03| O site deve possibilitar que o usuário marque em qual episódio da temporada e em qual temporada ele está.| `ALTA`|
+|RF-04| O site deve apresentar um formulário para cadastro de novos usuários| `ALTA`|
+|RF-05| O site deve permitir que o usuário avalie as obras que desejar.| `ALTA`|
+|RF-06| O site deve permitir que o usuário crie uma lista de animes para assistir no futuro. | `MÉDIA` |
+|RF-07| O site deve emitir uma lista com o nome” minha lista de animes”. | `MÉDIA` |
+|RF-08|O site deverá conter sinopse dos animes.| `BAIXA` |
 
 ### Requisitos não Funcionais
+A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-01| As informações cadastrais do usuário devem estar disponíveis apenas para o usuário e o administrador do sistema |`ALTA`| 
+|RNF-02| O site deverá utilizar tecnologias Front-end como HTML, CSS e Java|`ALTA`| 
+|RNF-03| O site deverá utilizar a linguagem C# para estruturar o Back - End|`ALTA`|
+|RNF-04|O site deve apresentar um formulário para cadastro de novos usuários|`ALTA`|
+|RNF-05|O site deve ser compatível com os navegadores Chrome e Explorer|`MEDIA`|
+|RFN-06|O layout do site deverá trabalhar com um esquema de cores que atenda visualmente o usuário portador de daltonismo|`BAIXA`|
+|RFN-07|O site deverá atender aos requisitos de leitores de tela para ser acessível para deficientes visuais|`BAIXA`|
+|RFN-08|O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada.|`BAIXA`|
 
 ## Restrições
 
@@ -70,25 +59,33 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|RE-01|O projeto deverá ser entregue funcionando no final do semestre letivo, sem ultrapassar a data 15/12/2021.|
+|RE-02|A equipe não pode subcontratar o desenvolvimento do trabalho|
+|RE-03|A equipe desenvolverá o projeto com os integrantes que compõem o grupo e todos deverão estar cientes sobre as funcionalidades do código e sistema/website.|
 
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
+A seguir encontram-se os Casos de Uso e o Diagrama de Casos de Uso.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
+| Caso de Uso| Descrição|
+|Fazer login|Recebe as credenciais já cadastradas do usuário e em seguida é encaminhado para Verificar Credenciais.|
+|Verificar Credenciais|Verifica e valida as credenciais do usuário. Caso estejam incorretas então o sistema irá exibir erro de login.|
+|Avaliar animes|Registra a avaliação feita pelo usuário em determinada obra.|
+|Marcar episódios/temporadas|Registra as informações sobre o progresso do usuário em determinada obra. Exemplo: episódios vistos e temporadas finalizadas.|
+|Pesquisar animes|Exibir os resultados de acordo com a busca do usuário.|
+|Criar sua lista|Salva as obras que o usuário já tenha assistido, está assistindo ou queira assistir, podendo adicionar ou excluir determinadas obras a qualquer momento.|
+|Filtrar Preferências |Filtra o conteúdo de acordo com as preferências do usuário.|
+|Listar Animes|Os animes serão adicionados e receberão as seguintes referências: sinopse, ano de lançamento, número de temporadas e episódios.|
+|Excluir animes|Os animes poderão ser excluídos do site pelo administrador.|
 
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+|Ator|Descrição|
+|:-----------:|:---------:|
+|Otaku|Público-alvo da aplicação, ou seja, o usuário.|
+|Administrador|Gerencia o conteúdo existente na página.|
+
+
+![image](https://user-images.githubusercontent.com/78831493/134986218-863488d7-1f09-4705-8b7e-614f0b4356a8.png) <br>
+                     *Figura 1: Representação do Diagrama de Casos de Uso
+                                Fonte: elaborado pelos autores*
+
