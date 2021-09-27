@@ -27,7 +27,8 @@ A tela de Login será o primeiro contato do usuário com o sistema, nela são ex
 Tela - Cadastro <br>
 A tela de Cadastro apresentará campos necessários para criar o perfil do usuário e depois de preencher esses campos basta clicar em "Finalizar" e o cadastro estará concluído. 
 
-![2Tela Cadastro Usuario](https://user-images.githubusercontent.com/78181968/134987570-384997ea-7eed-41fa-b15c-f33010573ed2.png)
+![2Tela Cadastro Usuario](https://user-images.githubusercontent.com/78181968/134997266-fb17fcb5-c9ea-4c77-890f-fbdd4c1eaa7b.png)
+
 
 Tela - Início <br>
 A Tela Inicial contém animes que podem ser selecionados para entrar na lista do usuário e também uma barra de pesquisa para buscar algum título em especifico. A barra lateral esquerda apresenta o perfil do usuário e o botão "Minha Lista" leva para  a lista de animes que o usuário irá criar. 
@@ -52,4 +53,4 @@ A tela Progresso do Anime contém campos para preencher informações sobre o pr
 Tela - Administrador <br>
 A tela do Administrador será restrita e apenas os administradores poderão acessar. Aqui será possível adicionar animes ao sistema com todas as suas informações e também excluí-lós se for preciso.
 
-![7 Tela Do ADM](https://user-images.githubusercontent.com/78181968/134987652-a1119cc3-9d5c-4311-961d-63882aa77714.png)
+![7 Tela Do ADM](https://user-images.githubusercontent.com/78181968/134997311-bea26ee2-6d3c-473f-ba12-b4d2bd609ad3.png)
