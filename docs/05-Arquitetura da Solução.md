@@ -1,33 +1,33 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
-
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+Nesta seção são especificados os detalhes técnicos do projeto, abordando componentes relacionados a solução e também a forma como será feita a hospedagem.
 
 ## Diagrama de Classes
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
+![Diagrama de classes](C:\Users\Igor\Desktop\Archives\Front End\Projetos  PUC\2° Semestre\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Imagens do Documento\diagrama de classses.jpg)
 
-> - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
-> - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
+## Diagrama ER
 
-## Modelo ER
+O Diagrama Entidade Relacionamento representa como as entidades se relacionam na aplicação interativa.
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
+![Diagrama ER](C:\Users\Igor\Desktop\Archives\Front End\Projetos  PUC\2° Semestre\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Imagens do Documento\ER diagram.png)
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
+## Modelo Relacional
 
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
+O Modelo Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
 
-## Esquema Relacional
+- USUARIOS (<u>id_usuario</u>, nome, status, email, senha)
 
-O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
- 
-As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
+- LISTA_ANIMES (<u>id_lista</u>, id_usuario, id_anime, avaliacao)
+    id_usuario referencia USUARIOS
+    id_anime referencia ANIMES
 
-> - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
+- ANIMES (<u>id_anime</u>, nome, descricao, id_genero)
+    id_genero referencia GENERO_ANIME
+
+- GENERO_ANIME (<u>id_genero</u>, nome, descricao)
 
 ## Tecnologias Utilizadas
 
@@ -37,11 +37,5 @@ Apresente também uma figura explicando como as tecnologias estão relacionadas 
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+.
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
