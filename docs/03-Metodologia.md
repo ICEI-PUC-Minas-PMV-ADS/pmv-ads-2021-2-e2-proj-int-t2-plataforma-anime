@@ -72,7 +72,7 @@ Para o desenvolvimento da aplicação, serão utilizadas as seguintes plataforma
 |Desenvolvimento do código|VS code||
 |Repositório de código fonte|GitHub|https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime|
 |Documentos do projeto|Google Drive|https://docs.google.com/document/d/1yOVHI558cE0wVAQ3fvDRtdO_p0sGs6XfRDbaWQxFyjs/edit|
-|Projeto de Interface|MarvelApp|| https://marvelapp.com/prototype/2bcfg37g/screen/82260099|
+|Projeto de Interface|MarvelApp|https://marvelapp.com/prototype/2bcfg37g/screen/82260099|
 |Wireframes|Figma|https://www.figma.com/file/aPO00iT2vJCD3SybqEbICd/Untitled?node-id=0%3A1|
 |Gerenciamento do Projeto|GitHub|https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime|
 
