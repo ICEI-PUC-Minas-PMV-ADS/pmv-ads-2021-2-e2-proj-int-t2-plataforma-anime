@@ -1,10 +1,23 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+Para realização dos casos de teste, serão necessários alguns requisitos:
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+* Site já publicado
+* Navegador da internet - Chrome ou Edge
+* Conectividade com internet
+* Massa de dados já alimentada
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
+Os testes funcionais serão realizados conforme descrito abaixo:
+ (*texto será editado*)
+ 
+ |`CASO DE TESTE`| CT - 01 Tela Login e Cadastro para novos usuários|
+ |:-----------:|:---------:|
+ |`REQUISITOS ASSOCIADOS`|RF-01 O site deve apresentar uma página de login para usuários já cadastrados com a opção de cadastro para novos usuários.<br> RF-02 O acesso a plataforma será permitdo apenas a usuários já cadastrados|
+ |`OBJETIVO DO TESTE`| Verificar se na tela inicial está exibindo o box para login de usuário cadastrados e o link para cadastro de novos usuário|
+ |`PASSOS`| 1) Acesssar o navegador <br> 2) Digitar a URL do site <br> 3) Visualizar tela incial da aplicação.|
+ |`CRITÉRIOS DE ÉXITO`| * Permitir o acesso de usuário já cadastrado <br> * Exibir link para cadastro de novos usuários <br> * Impedir acessos de usuários não cadastrados <br> * Emitir alerta de erro de login.|
+
+
  
 ## Ferramentas de Testes (Opcional)
 
