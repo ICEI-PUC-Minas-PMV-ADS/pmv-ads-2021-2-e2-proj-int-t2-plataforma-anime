@@ -19,16 +19,8 @@ O Diagrama Entidade Relacionamento representa como as entidades se relacionam na
 
 O Modelo Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
 
-- USUARIOS (<u>id_usuario</u>, nome, status, email, senha)
+![Modelo ER ](https://user-images.githubusercontent.com/78181968/135537983-4f1ec51b-e119-4f16-ace1-cfb3b58f6466.png)
 
-- LISTA_ANIMES (<u>id_lista</u>, id_usuario, id_anime, avaliacao) <br>
-    id_usuario referencia USUARIOS <br>
-    id_anime referencia ANIMES
-
-- ANIMES (<u>id_anime</u>, nome, descricao, id_genero)<br>
-    id_genero referencia GENERO_ANIME
-
-- GENERO_ANIME (<u>id_genero</u>, nome, descricao)
 
 ## Tecnologias Utilizadas
 
