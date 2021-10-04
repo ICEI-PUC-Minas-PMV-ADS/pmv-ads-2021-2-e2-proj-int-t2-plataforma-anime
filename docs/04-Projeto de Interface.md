@@ -13,7 +13,8 @@ Diagrama de Fluxos do Usuário:
 
 Diagrama de Fluxo do Administrador:
 
-![fluxograma animes ADM](https://user-images.githubusercontent.com/78181968/134987300-2463fb47-345e-4c58-aa11-0d208cc15a5c.png)
+![fluxograma animes ADM](https://user-images.githubusercontent.com/78181968/135937916-6c64a124-5702-41b7-834b-fa22006b2f10.png)
+
 
 ## Wireframe Interativo
 
