@@ -5,17 +5,18 @@ Para realização dos casos de teste, serão necessários alguns requisitos:
 * Site já publicado
 * Navegador da internet - Chrome ou Edge
 * Conectividade com internet
-* Massa de dados já alimentada
+* Massa de dados criada em banco de dados. 
 
 Os testes funcionais serão realizados conforme descrito abaixo:
  (*texto será editado*)
  
- |`CASO DE TESTE`| CT - 01 Tela Login e Cadastro para novos usuários|
+ |`CASO DE TESTE`| CT01 Login com sucesso de usuário cadastrado|
  |:-----------:|:---------:|
- |`REQUISITOS ASSOCIADOS`|RF-01 O site deve apresentar uma página de login para usuários já cadastrados com a opção de cadastro para novos usuários.<br> RF-02 O acesso a plataforma será permitdo apenas a usuários já cadastrados|
- |`OBJETIVO DO TESTE`| Verificar se na tela inicial está exibindo o box para login de usuário cadastrados e o link para cadastro de novos usuário|
- |`PASSOS`| 1) Acesssar o navegador <br> 2) Digitar a URL do site <br> 3) Visualizar tela incial da aplicação.|
- |`CRITÉRIOS DE ÉXITO`| * Permitir o acesso de usuário já cadastrado <br> * Exibir link para cadastro de novos usuários <br> * Impedir acessos de usuários não cadastrados <br> * Emitir alerta de erro de login.|
+ |`REQUISITOS ASSOCIADOS`|RF-01 O site deve apresentar uma página de login para autenticação de usuários cadastrados|
+ |`OBJETIVO DO TESTE`| Verificar se o usuário consegue realizar o login com e-mail e senha corretas.|
+ |`MASSA DE TESTE`|Usuário teste cadastrado do sistema <br> Email: teste.animescode@gmail.com <br>Senha: Animescode@1|
+ |`PASSOS`| * Acessar o Navegador<br> * Informar a Url do site <br> * Visualizar a página principal <br> * Realizar Login <br> * Realizar pesquisa de animes pelos filtros citados em Requisitos Associados|
+ |`CRITÉRIOS DE ÉXITO`| O sistema deve retornar ao usuário as pesquisas de acordo com os filtros selecionados.|
 
 
  
