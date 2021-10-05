@@ -20,14 +20,3 @@ O Diagrama Entidade Relacionamento representa como as entidades se relacionam na
 O Modelo Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
 
 ![Modelo ER ](https://user-images.githubusercontent.com/78181968/135537983-4f1ec51b-e119-4f16-ace1-cfb3b58f6466.png)
-
-
-## Tecnologias Utilizadas
-
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
-
-## Hospedagem
-
-
