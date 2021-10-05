@@ -22,7 +22,7 @@ Os testes funcionais serão realizados conforme descrito abaixo:
  
  |`CASO DE TESTE`| CT02 Login sem sucesso de usuário cadastrado|
  |:-----------:|:---------:|
- |`REQUISITOS ASSOCIADOS`|RF – 07  Só terá acesso ao conteúdo do site, o usuário já cadastrado no sistema.|
+ |`REQUISITOS ASSOCIADOS`|RF-08 O acesso ao conteúdo do site será permitido apenas, a usuário previamente cadastrados.|
  |`OBJETIVO DO TESTE`| Verificar se o usuário consegue realizar o login com e-mail e senha incorretos.|
  |`MASSA DE TESTE`|Login inválido e senha válida <br> E-mail: naruto.top@gmail.com <br> Senha: Animescode@1|
  |`PASSOS`| * Acessar o Navegador <br> * Informar a Url do site <br> * Visualizar a página principal <br> * Informar login errado e senha correta|
@@ -32,7 +32,7 @@ Os testes funcionais serão realizados conforme descrito abaixo:
  
  |`CASO DE TESTE`| CT03 Login sem sucesso de usuário cadastrado|
  |:-----------:|:---------:|
- |`REQUISITOS ASSOCIADOS`|RF – 07  Só terá acesso ao conteúdo do site, o usuário já cadastrado no sistema.|
+ |`REQUISITOS ASSOCIADOS`|RF-08 O acesso ao conteúdo do site será permitido apenas, a usuário previamente cadastrados.|
  |`OBJETIVO DO TESTE`| Verificar se o usuário consegue realizar o login com e-mail e senha incorretos.|
  |`MASSA DE TESTE`|Login válido e senha inválida <br> E-mail: teste.animescode@gmail.com <br Senha: Tanjiro01*|
  |`PASSOS`| * Acessar o Navegador <br> * Informar a Url do site <br> * Visualizar a página principal <br> * Informar login válido e senha incorreta|
@@ -42,7 +42,7 @@ Os testes funcionais serão realizados conforme descrito abaixo:
  
  |`CASO DE TESTE`| CT04 Login sem sucesso de usuário cadastrado|
  |:-----------:|:---------:|
- |`REQUISITOS ASSOCIADOS`|RF – 07  Só terá acesso ao conteúdo do site, o usuário já cadastrado no sistema.|
+ |`REQUISITOS ASSOCIADOS`|RF-08 O acesso ao conteúdo do site será permitido apenas, a usuário previamente cadastrados.|
  |`OBJETIVO DO TESTE`| Verificar se o usuário consegue realizar o login com e-mail e senha incorretos.|
  |`MASSA DE TESTE`|Login e senha inválidos <br> E-mail: naruto.top@gmail.com <br> Senha: Tanjiro01*|
  |`PASSOS`| * Acessar o Navegador <br> * Informar a Url do site <br> * Visualizar a página principal <br> * Informar login e senha inválidos|
@@ -92,7 +92,7 @@ Os testes funcionais serão realizados conforme descrito abaixo:
   
  |`CASO DE TESTE`|CT09 Usuário avaliar com notas os animes assistidos. |
  |:-----------:|:---------:|
- |`REQUISITOS ASSOCIADOS`|RF08  O usuário só pode dar nota ao anime, após finalizá-lo.|
+ |`REQUISITOS ASSOCIADOS`|RF-07  O usuário só pode dar nota ao anime, após finalizá-lo.|
  |`OBJETIVO DO TESTE`|Verificar se o usuário está conseguindo avaliar o anime, apenas quando todos os episódios e temporadas estão marcados como concluído.|
  |`MASSA DE TESTE`|Usuário teste cadastrado do sistema <br> Email: teste.animescode@gmail.com <br> Senha: Animescode@1|
  |`PASSOS`|* Acessar o Navegador <br> * Informar a Url do site <br> * Visualizar a página principal <br> * Realizar Login <br> * Acessar lista de animes <br> * Acessar lista de animes <br> * Avaliar com nota anime já marcado como finalizado.|
@@ -102,7 +102,7 @@ Os testes funcionais serão realizados conforme descrito abaixo:
  
  |`CASO DE TESTE`|CT10 Alteração do status pós marcação em anime.|
  |:-----------:|:---------:|
- |`REQUISITOS ASSOCIADOS`|RF-10 O usuário poderá criar uma lista de animes que está assistindo no momento e marcar seu progresso que será diferenciado por cores. Animes já assistidos em verde, os animes em andamento de amarelo, animes para assistir depois em roxo.|
+ |`REQUISITOS ASSOCIADOS`|RF-09 O usuário poderá criar uma lista de animes que está assistindo no momento e marcar seu progresso que será diferenciado por cores. Animes já assistidos em verde, os animes em andamento de amarelo, animes para assistir depois em roxo.|
  |`OBJETIVO DO TESTE`|Verificar se o usuário está conseguindo avaliar o anime, apenas quando todos os episódios e temporadas estão marcados como concluído.|
  |`MASSA DE TESTE`|Usuário teste cadastrado do sistema <br> Email: teste.animescode@gmail.com <br> Senha: Animescode@1|
  |`PASSOS`|* Acessar o Navegador <br> * Informar a Url do site <br> * Visualizar a página principal <br> * Realizar Login <br> * Pesquisar anime <br> * Marca-lo como lido/em andamento/ver depois.|
