@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="LoginPage.css">
+    <script src="LoginPage.js"></script>
     <title>Anime.CODE</title>
 </head>
 <body>
     <main>
         
         <div>
-            <form action="">
+            <form>
 
                 <input type="text" name="txtUser" id="txtUser" placeholder="Usuário" required> 
                 <br>
@@ -19,7 +20,7 @@
 
                 <p>Esqueceu sua senha? <a href="" rel="next"><strong>Clique aqui</strong></a></p>
 
-                <button>Acessar</button>
+                <button id="acessarButton" onclick="logar()">Acessar</button>
                 
             </form>
             
