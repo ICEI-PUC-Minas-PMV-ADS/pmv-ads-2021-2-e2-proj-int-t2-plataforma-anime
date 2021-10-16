@@ -24,6 +24,7 @@ input {
     padding: 0 5px;
     color: #fff ;
     text-align:center ;
+    font-family: 'Open Sans', sans-serif;
     font-size: 11pt;   
 }
 
@@ -46,6 +47,7 @@ button {
     padding: 0 5px;
     color: #fff ;
     font-size: 11pt;    
+    font-family: 'Open Sans', sans-serif;
     cursor: pointer;
 }
 

@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    height: 4em;
+    background-color: #02095C;
+}
+
+main{
+    display: flex;
+    width: 85%;
+}
+
+aside{width: 15%;}
+
+.asideBar{
+    height: 200px;
+    width: 128px;
+    margin: 16px;
+    padding: 16px;
+    border: #02095C solid 3px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.imgAdm {   
+    border-radius: 50%;
+}
+
+.formulario{
+    margin: 16px auto;
+}
+
+form {   
+    padding: 8px;
+    
+    width: 256px;
+    text-align: center;
+    background-color: #D8DBDF;
+    border-radius: 10px ;
+}
+
+#txtSinopse{
+    width: 13em;
+    height: 2em;
+    background: #c2c2c2;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11pt;
+}
+
+input {
+    margin: 4px 0;
+    width: 13em;
+    border: none;
+    background: #c2c2c2;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11pt;
+}
+
+button {
+    margin: 5px 0;
+    width: 8em;
+    height: 2em;
+    border: none;
+    border-radius: 30px;
+    background: #02095C;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11pt;
+    color: #efebe2; 
+    cursor: pointer;
+} 

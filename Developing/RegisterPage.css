@@ -19,7 +19,7 @@ input{
     margin: 10px 0;
     width: 16em;
     height: 2em;
-    background: #c1bcdf;
+    background: #d3cfe9;
     border: none;
     font-size: 11pt;
 }
@@ -33,6 +33,7 @@ button {
     margin: 8px;
     color: #fff ;
     font-size: 11pt;    
+    font-family: 'Open Sans', sans-serif;
     cursor: pointer;
 }
 
