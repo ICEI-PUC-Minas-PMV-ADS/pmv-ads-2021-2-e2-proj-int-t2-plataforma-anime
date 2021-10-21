@@ -37,7 +37,6 @@ main {
     background: linear-gradient(to bottom, #05056d 0%, #ffffff 75%)}
 
 .div-perfil{
-    
     padding: 16px 0;
     text-align: center;
 }
@@ -47,18 +46,18 @@ main {
     margin: 8px;
 }
 
-.paragrafo-explicativo {
-   
+span{font-size: 15pt;}
+
+.paragrafo-explicativo {   
     text-align: center;
-    padding: 8px;
-    
+    padding: 8px;  
 }
 
-.imgT{margin: 4px; border-radius:8px ;}
+.imgT{margin: 5px; border-radius:8px ;}
 
 .posteres-animes{
     margin: 0 auto; 
-    width: 90%; 
+    width: 80%; 
     text-align: center;
 }
 
