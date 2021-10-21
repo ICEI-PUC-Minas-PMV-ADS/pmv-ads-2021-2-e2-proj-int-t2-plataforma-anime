@@ -1,4 +1,4 @@
-# Projeto plataforma Anime :collision:
+# Projeto Anime.CODE :collision:
 
 `Analise e desenvolvimento de sistemas`
 
