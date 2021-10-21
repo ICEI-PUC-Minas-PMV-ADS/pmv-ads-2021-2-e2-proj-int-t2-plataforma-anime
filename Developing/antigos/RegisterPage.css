@@ -1,17 +1,17 @@
 body{
     color: #efebe2; 
     font-family: 'Open Sans', sans-serif;
-    background: #09005c;
+    background: linear-gradient(to bottom right, #250179 32%, #180052 58%);
     
 }
 
-.div-registro{
+main{    
     width: 32em;
-    padding: 2em 0;
+    padding: 16px 0;
     margin: 2em auto;
     background: #110a42;
     text-align: center;
-    border-radius: 10px;
+    
 }
 
 input{
@@ -21,8 +21,6 @@ input{
     height: 2em;
     background: #d3cfe9;
     border: none;
-    border-radius: 10px;
-    font-family: 'Open Sans', sans-serif;
     font-size: 11pt;
 }
 
@@ -41,20 +39,4 @@ button {
 
 button:hover{
     border: #5d49e2 solid 5px;
-}
-
-@media screen and (max-width:400px) {
-    .div-registro{
-        width: 16em;
-        padding: 2em;
-        margin: 2em auto;
-    }
-}
-
-@media screen and (max-width:550px) {
-    .div-registro{
-        width: 16em;
-        padding: 2em;
-        margin: 2em auto;
-    }
 }

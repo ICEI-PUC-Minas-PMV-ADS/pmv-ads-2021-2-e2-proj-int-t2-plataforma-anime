@@ -1,50 +1,26 @@
-* {
-    margin: 0;
-}
+body {font-family: 'Open Sans', sans-serif;}
 
-body {
-     width: 100%;
-     font-size: 12pt;
-     font-family: 'Open Sans', sans-serif;
-}
+main {background: linear-gradient(to bottom, #05056d 0%, #ffffff 75%);}
 
-header {
-    height: 4em;
-    background-color: #02095C;
-}
+header{background-color: rgb(5, 5, 109);}
 
-main{
-    display: flex;
-}
-
-aside {
-    width:15%;
-}
-
-.asideBar{
-    height: 200px;
-    width: 128px;
-    margin: 16px;
-    padding: 16px;
-    border: #02095C solid 3px;
-    border-radius: 10px;
+.conteudo { 
+    margin: 0 auto; 
+    width: 90%; 
     text-align: center;
 }
 
-.imgPerfil {   
-    border-radius: 50%;
+.imgT{margin: 4px; border-radius:8px ;}
+
+.box-Title { 
+    color: #ffffff; 
+    margin: 0 auto;
+    padding: 32px;   
 }
 
-.minhaListaButton {
-    margin-top: 16px;
-    height: 2em;
-    width: 8em;
-    background: transparent;
-    border: #02095C solid 3px;
-    border-radius: 10px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12pt;
-    cursor: pointer;
+#navbarNavDropdown {
+    position: relative; 
+    justify-content: end;
 }
 
 .searchBar {
@@ -54,7 +30,7 @@ aside {
     border-radius:5px;
     background: #D9DCDF;
     font-family: 'Open Sans', sans-serif;
-    text-align: center;
+    text-align: center;   
 }
 
 .searchButton {
@@ -67,12 +43,11 @@ aside {
     cursor: pointer;
 }
 
-.contuedoPosteres {
-    margin: 8px 0;
-    width: 85%;
-    text-align: center;
-}
+.div-search-header{text-align: center;}
 
-.postersExibidos {
-    margin: 16px;
+ @media screen and (max-width:702px) {
+     .searchBar{width: 16em;}
+ }
+ @media screen and (max-width:300px) {
+    .searchBar{width: 10em;}
 }

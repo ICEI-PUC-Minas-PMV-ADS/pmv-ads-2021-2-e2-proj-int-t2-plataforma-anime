@@ -1,40 +1,43 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="RegisterPage.css">
+    <link rel="stylesheet" href="registerPage.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <script src="RegisterPage.js"></script>
-    <title>Faça seu cadastro!</title>
+    <title>Cadastre-se!</title>
 </head>
 <body>
     <main>
-        <form action="">
-            <h1>Cadastro</h1>
-            Nome* <br>
-             <input type="text" name="txtNome" id="txtNome" required> <br>
+        <div class="div-registro">
 
-            Nome de Usuário* <br>
-            <input type="text" name="txtUserName" id="txtUserName" required> <br>
+            <picture>
+                <source media="(max-width:500px)" srcset="img/logo-Pequeno.png" " type="image/png">
+                <source media="(max-width:550px )" srcset="img/logo-Medio.png" type="image/png">
+                <img src="img/logo-Grande.png" alt="">
+            </picture>
 
-            Data de Nascimento <br>
-            <input type="date" name="dataNasc" id="dataNasc"> <br>
+            <form action="">
+                <h1>Cadastro</h1>
+                Nome de usuário* <br>
+                 <input type="text" name="txtNome" id="txtNome" required> <br>
+    
+                Data de Nascimento <br>
+                <input type="date" name="dataNasc" id="dataNasc"> <br>
+    
+                E-mail* <br>
+                <input type="email" name="txtEmail" id="txtEmail" required> <br>
+    
+                Senha* <br>
+                <input type="password" name="password" id="password" required> <br>
+     
+                <button id="finalizarButton" onclick="enviarCadastro()">Finalizar</button> 
+    
+            </form> 
 
-            E-mail* <br>
-            <input type="email" name="txtEmail" id="txtEmail" required> <br>
-
-            Senha* <br>
-            <input type="password" name="password" id="password" required> <br>
-
-            Confirmar senha* <br>
-            <input type="password" name="confirmPassword" id="confirmPassword" required> <br>
- 
-            <button id="finalizarButton" onclick="enviarCadastro()">Finalizar</button> 
-
-        </form> 
-        <a href="index.html" rel="previous"><button>Cancelar</button></a>
+            <a href="index.html" rel="previous"><button>Cancelar</button></a>
+        </div>   
     </main>
 </body>
 </html>

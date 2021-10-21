@@ -1,32 +1,31 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="InicialPage.css">
-    <title>Início</title>
- 
+    <link rel="stylesheet" href="ProfilePage.css">
+    <title>Perfil</title>
 </head>
 <body>
-    <header>      
+    <header>
         <nav class="navbar navbar-expand-lg navbar-dark">
             <a class="navbar-brand" href="#"><img src="img/logo-Pequeno.png" alt=""></a>
            
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-           
+       
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               
               <ul class="navbar-nav">
                 <li class="nav-item active"> 
-                  <a class="nav-link" href="#"> Início <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="InicialPage.html" rel="previous"> Início <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="ProfilePage.html">Perfil</a>
+                  <a class="nav-link" href="#">Perfil</a>
                 </li>
               </ul>
             </div>
@@ -36,19 +35,23 @@
             <input type="search" class="searchBar" name="searchBar" id="searchBar" placeholder="Barra de pesquisa">
 
             <abbr title="Pequisar"><button class="searchButton" id="searchButton" onclick="pesquisar()"><img src="img/search-solid.svg" alt="Lupa de pesquisa"></button></abbr>
-          </div>                   
+          </div>
     </header>
 
-    <main >
-
-        <div class="conteudo">
-
-            <div class="box-Title">
-                <h1>Crie sua própria lista <br> de animes!</h1>
-            </div>
+    <main>
+        <div class="div-perfil" id="div-perfil">
+            <h1>Perfil</h1>
+            <img class="imgPerfil" src="img/main.jpg" alt=""> <br>
+            <span>furacão2000</span>
             
+        </div>
 
-            <div class="">
+        <div class="paragrafo-explicativo">
+            <h2>Está é a sua lista de animes!</h2>
+            <p>Clique no anime em que desejar para alterar seu progresso.</p>
+        </div>
+
+        <div class="posteres-animes">
                 <img class="imgT" src="Img/mini-1.jpg" alt="">
                 <img class="imgT" src="Img/mini-2.jpg" alt="">
                 <img class="imgT" src="Img/mini-3.jpg" alt="">
@@ -59,11 +62,11 @@
                 <img class="imgT" src="Img/mini-8.jpg" alt="">
                 <img class="imgT" src="Img/mini-9.jpg" alt="">
                 <img class="imgT" src="Img/mini-10.jpg" alt="">
-            </div>
         </div>
-       
     </main>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>
 </html>

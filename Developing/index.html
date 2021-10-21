@@ -6,29 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <script src="index.js"></script>
-    <title>Anime.CODE</title>
+    <title>Login</title>
 </head>
 <body>
     <main>
-        
-        <div>
-            <form>
+        <div class="div-login">
 
-                <input type="text" name="txtUser" id="txtUser" placeholder="Usuário" required> 
-                <br>
-                <input type="password" name="txtPassword" id="txtPassword" placeholder="Senha" required> 
+            <picture>
+                <source media="(max-width:400px)" srcset="img/logo-Pequeno.png" " type="image/png">
+                <source media="(max-width:700px )" srcset="img/logo-Medio.png" type="image/png">
+                <img src="img/logo-Grande.png" alt="">
+            </picture>
 
-                <p>Esqueceu sua senha? <a href="" rel="next"><strong>Clique aqui</strong></a></p>
-
-                <a href="InicialPage.html" rel="next"><button id="acessarButton" onclick="logar()">Acessar</button></a>
-                
+            <form action="">
+                <input type="text" name="txtEmail" id="txtEmail" placeholder="Email" required>
+                <input type="password" name="txtPassword" id="txtPassword" placeholder="Senha" required>
             </form>
-            
+
+            <p>Esqueceu sua senha? <a href=""><strong>Clique aqui</strong></a></p>
+
+            <a href=""><button id="acessarButton" class="acessarButton" >Acessar</button></a>
+
             <p>É novo por aqui? <a href="RegisterPage.html" rel="next"><strong>INSCREVA-SE</strong></a></p>
-            
-        </div>
-    
+        </div>   
     </main>
 </body>
 </html>

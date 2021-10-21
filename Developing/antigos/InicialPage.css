@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+}
+
+body {
+     width: 100%;
+     font-size: 12pt;
+     font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    height: 4em;
+    background-color: #02095C;
+}
+
+main{
+    display: flex;
+}
+
+aside {
+    width:15%;
+}
+
+.asideBar{
+    height: 200px;
+    width: 128px;
+    margin: 16px;
+    padding: 16px;
+    border: #02095C solid 3px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.imgPerfil {   
+    border-radius: 50%;
+}
+
+.minhaListaButton {
+    margin-top: 16px;
+    height: 2em;
+    width: 8em;
+    background: transparent;
+    border: #02095C solid 3px;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    cursor: pointer;
+}
+
+.searchBar {
+    width: 32em;
+    height: 2em;
+    border: none;
+    border-radius:5px;
+    background: #D9DCDF;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.searchButton {
+    position: absolute;
+    margin-left: 4px;
+    height: 2em;
+    border: none;
+    background: #D9DCDF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contuedoPosteres {
+    margin: 8px 0;
+    width: 85%;
+    text-align: center;
+}
+
+.postersExibidos {
+    margin: 16px;
+}
