@@ -43,7 +43,7 @@ header{background-color: rgb(5, 5, 109);}
     cursor: pointer;
 }
 
-.div-search-header{text-align: center;}
+.div-search-header{text-align: center; padding: 8px;}
 
  @media screen and (max-width:702px) {
      .searchBar{width: 16em;}
