@@ -46,16 +46,18 @@
 
     <main>
     
-        <div class="sinopse">
+        <div class="conteudo-do-anime">
             <div>
                 <img class="imagem-poster" src="img/mini-1.jpg" alt="">
             </div>
 
             <div class="paragrafo-e-botao">
 
-                <h1>Akame ga Kill</h1>
+                <span class="voltar" onclick="window.location.href='./InicialPage.html'"> <img src="img/arrow-left-short.svg"><strong>Voltar</strong></span>
+                
+                <h1 id="titulo-anime"></h1>
 
-                <p class="paragrafo">
+                <p class="sinopse">
                     O jovem adolescente Tatsumi sai com dois amigos de sua vila pobre rumo à capital do império, com o
                     objetivo de alistar-se no exército e ganhar dinheiro para sua vila, tendo acabado por se separar
                     deles. No entanto, ao perceber a corrupção esmagadora e pobreza massiva e depois de ver que os seus
@@ -77,36 +79,38 @@
            <div class='informacoes'>
                 <strong>Gênero</strong>
                 <br>
-                <span>Ação</span>
+                <span id="txt-do-genero"></span>
             </div>
 
             <div class="informacoes">
                 <strong>Autor</strong>
                 <br>
-                <span>Igor Giovane</span>
+                <span id="txt-do-autor"></span>
             </div>
 
             <div class='informacoes'>
-                <strong>Estudio</strong>
+                <strong>Studio</strong>
                 <br>
-                <span>Marvel</span>
+                <span id="txt-do-studio"></span>
             </div>
 
             <div class='informacoes'>
                 <strong>Temporadas</strong>
                 <br>
-                <span>2 temporadas</span>
+                <span id="txt-da-temporada"></span>
             </div>
 
             <div class='informacoes'>
                 <strong>Episódios</strong>
                 <br>
-                <span>40 Episódios</span>
+                <span id="txt-dos-episodios"></span>
             </div>
 
         </div>
     </main>
 
+
+    <script src="AnimePage.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>

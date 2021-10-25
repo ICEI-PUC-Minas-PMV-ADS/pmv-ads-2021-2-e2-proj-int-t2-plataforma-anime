@@ -10,7 +10,7 @@ header{background-color: rgb(5, 5, 109);}
     text-align: center;
 }
 
-.imgT{margin: 4px; border-radius:8px ;}
+.imgT{margin: 4px; border-radius:8px; cursor: pointer;}
 
 .box-Title { 
     color: #ffffff; 

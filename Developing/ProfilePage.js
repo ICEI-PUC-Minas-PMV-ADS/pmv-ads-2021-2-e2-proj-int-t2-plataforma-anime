@@ -13,7 +13,7 @@ function amarzenarProgresso(){
 }
 
 
-document.getElementsByClassName("nick-usuario")[0].innerHTML = "Megazord69Famosin"
+document.getElementsByClassName("nick-usuario")[0].innerHTML = "MegazordFamosin"
 
 var listaDeAnime = []
 
