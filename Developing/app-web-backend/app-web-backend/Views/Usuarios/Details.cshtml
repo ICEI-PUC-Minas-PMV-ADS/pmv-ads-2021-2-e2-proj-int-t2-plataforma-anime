@@ -1,0 +1,25 @@
+﻿@model app_web_backend.Models.Usuario
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<link rel="stylesheet" href="~/css/ProfilePage.css">
+
+<div class="div-perfil" id="div-perfil">
+    <h1>Perfil</h1>
+    <span class="nick-usuario">E-mail: @Html.DisplayFor(model => model.Email)</span>
+    <br>
+    <span class="nick-usuario">Olá, @Html.DisplayFor(model => model.Nome)</span>
+
+</div>
+
+<div class="paragrafo-explicativo">
+    <h2>Está é a sua lista de animes!</h2>
+    <p>Clique no anime em que desejar para alterar seu progresso.</p>
+</div>
+
+<div class="posteres-animes">
+    <img id="" src="" alt="">
+    <img id="exibiPosteresAnime" class="imgT" src="~/Img/1.jpg" alt="">
+</div>

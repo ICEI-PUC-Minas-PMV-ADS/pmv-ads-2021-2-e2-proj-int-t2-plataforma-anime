@@ -1,0 +1,56 @@
+﻿@model app_web_backend.Models.Anime
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<link rel="stylesheet" href="~/css/AnimePage.css">
+
+<div class="conteudo-do-anime">
+    <div>
+        @{
+            var imgPath = Model.Id + ".jpg";
+        }
+        <img class="imagem-poster" src="~/Img/@imgPath" alt="">
+    </div>
+
+    <div class="paragrafo-e-botao">
+        <span class="voltar" onclick="window.location.href='../../'"> <img src="~/Img/arrow-left-short.svg"><strong>Voltar</strong></span>
+
+        <h1 id="titulo-anime"></h1>
+
+        <p class="sinopse">
+            @Html.DisplayFor(model => model.Descricao)
+        </p>
+
+        <button class="botao">Adicionar na minha lista</button>
+        @if (User.Identity.IsAuthenticated)
+        {
+            @if (User.IsInRole("1"))
+            {
+                <button class="botao">Editar</button>
+            }
+        }
+    </div>
+</div>
+
+<div class="detalhes">
+    <div class='informacoes'>
+        <strong>Gênero</strong>
+        <br>
+        <p>@Html.DisplayFor(model => model.Genero.Nome)</p>
+    </div>
+
+    <div class='informacoes'>
+        <strong>Temporadas</strong>
+        <br>
+        <p>@Html.DisplayFor(model => model.Temporadas)</p>
+    </div>
+
+    <div class='informacoes'>
+        <strong>Episódios</strong>
+        <br>
+        <p>@Html.DisplayFor(model => model.Episodios)</p>
+    </div>
+
+</div>

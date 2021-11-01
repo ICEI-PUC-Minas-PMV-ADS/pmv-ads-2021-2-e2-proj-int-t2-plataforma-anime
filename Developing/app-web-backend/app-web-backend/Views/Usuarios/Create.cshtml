@@ -1,0 +1,55 @@
+﻿@model app_web_backend.Models.Usuario
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+@if (User.Identity.IsAuthenticated)
+{
+    <meta http-equiv="refresh" content="0; URL='/Animes/'" />
+}
+else
+{
+    <link rel="stylesheet" href="~/css/RegisterPage.css">
+    <div class="div-registro">
+
+        <picture>
+            <source media="(max-width:500px)" srcset="img/logo-Pequeno.png" type="image/png">
+            <source media="(max-width:550px )" srcset="img/logo-Medio.png" type="image/png">
+            <img src="img/logo-Grande.png" alt="">
+        </picture>
+
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <h1>Cadastro</h1>
+            Nick de usuário* <br>
+            <input asp-for="Nome" />
+            <span asp-validation-for="Nome" class="text-danger"></span>
+            <br>
+
+            Data de Nascimento <br>
+            <input type="date" asp-for="Data_nasc" />
+            <span asp-validation-for="Data_nasc" class="text-danger"></span>
+            <br>
+
+            E-mail* <br>
+            <input asp-for="Email" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+            <br>
+            <input type="hidden" value="2" asp-for="Status" />
+
+            Senha* <br>
+            <input type="password" asp-for="Senha" />
+            <span asp-validation-for="Senha" class="text-danger"></span> <br>
+
+            <button type="submit" value="Create">Finalizar</button>
+
+        </form>
+        <a class="nav-link" asp-area="" asp-controller="Usuarios" asp-action="Login"><button>Cancelar</button></a>
+    </div>
+
+    @section Scripts {
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    }
+
+}

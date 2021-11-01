@@ -1,0 +1,53 @@
+﻿@model app_web_backend.Models.Usuario
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+@if (User.Identity.IsAuthenticated)
+{
+    <meta http-equiv="refresh" content="0; URL='/Animes/'" />
+}
+else
+{
+
+
+    <link rel="stylesheet" href="~/css/index.css" />
+
+
+
+    <div class="div-login">
+
+        <picture>
+            <source media="(max-width:400px)" srcset="~/Img/logo-Pequeno.png" type="image/png">
+            <source media="(max-width:700px )" srcset="~/Img/logo-Medio.png" type="image/png">
+            <img src="~/Img/logo-Grande.png" alt="">
+        </picture>
+
+        <form asp-action="Login">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input asp-for="Email" type="text" placeholder="Email">
+            <!--<span asp-validation-for="Email" class="text-danger"></span>-->
+
+            <input asp-for="Senha" type="password" placeholder="Senha">
+            <!--<span asp-validation-for="Senha" class="text-danger"></span>-->
+
+            <!--<p>Esqueceu sua senha? <a href=""><strong>Clique aqui</strong></a></p>-->
+
+            <input type="submit" value="Acessar" class="acessarButton" />
+            <h3>
+                @ViewBag.Message
+            </h3>
+
+            <p>É novo por aqui? <a href="Create" rel="next"><strong>INSCREVA-SE</strong></a></p>
+
+        </form>
+
+
+    </div>
+
+    @section Scripts {
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    }
+
+}

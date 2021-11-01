@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <div class="div-login">
+
+            <picture>
+                <source media="(max-width:400px)" srcset="img/logo-Pequeno.png" " type="image/png">
+                <source media="(max-width:700px )" srcset="img/logo-Medio.png" type="image/png">
+                <img src="img/logo-Grande.png" alt="">
+            </picture>
+
+            <form action="">
+                <input type="text" name="txtEmail" id="txtEmail" placeholder="Email" required>
+                <input type="password" name="txtPassword" id="txtPassword" placeholder="Senha" required>
+            </form>
+
+            <p>Esqueceu sua senha? <a href=""><strong>Clique aqui</strong></a></p>
+
+            <a href="InicialPage.html" rel="next"><button id="acessarButton" class="acessarButton" onclick="logar()">Acessar</button></a>
+
+            <p>É novo por aqui? <a href="RegisterPage.html" rel="next"><strong>INSCREVA-SE</strong></a></p>
+
+        </div>   
+    </main>
+</body>
+</html>

@@ -1,0 +1,60 @@
+body{
+    color: #efebe2; 
+    font-family: 'Open Sans', sans-serif;
+    background: #09005c;
+    
+}
+
+.div-registro{
+    width: 32em;
+    padding: 2em 0;
+    margin: 2em auto;
+    background: #110a42;
+    text-align: center;
+    border-radius: 10px;
+}
+
+input{
+    text-align: center;
+    margin: 10px 0;
+    width: 16em;
+    height: 2em;
+    background: #d3cfe9;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11pt;
+}
+
+button {
+    border: #7362e7 solid 3px;
+    background-color: transparent;
+    border-radius: 30px; 
+    width: 8em;
+    height: 3em;
+    margin: 8px;
+    color: #fff ;
+    font-size: 11pt;    
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+button:hover{
+    border: #5d49e2 solid 5px;
+}
+
+@media screen and (max-width:400px) {
+    .div-registro{
+        width: 16em;
+        padding: 2em;
+        margin: 2em auto;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .div-registro{
+        width: 16em;
+        padding: 2em;
+        margin: 2em auto;
+    }
+}

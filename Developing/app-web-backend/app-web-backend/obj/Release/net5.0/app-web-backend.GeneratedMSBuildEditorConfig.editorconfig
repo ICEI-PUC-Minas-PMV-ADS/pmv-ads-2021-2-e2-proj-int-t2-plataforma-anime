@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = app_web_backend
+build_property.ProjectDir = C:\Users\gusta\OneDrive\Área de Trabalho\Faculdade\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Developing\app-web-backend\app-web-backend\

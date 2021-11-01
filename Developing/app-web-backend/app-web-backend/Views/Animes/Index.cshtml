@@ -1,0 +1,24 @@
+﻿@model IEnumerable<app_web_backend.Models.Anime>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<link rel="stylesheet" href="~/css/InicialPage.css">
+
+
+<div class="conteudo">
+
+    <div class="box-Title">
+        <h1>Crie sua própria lista <br> de animes!</h1>
+    </div>
+
+
+    <div class="posteresAnimes" id="posteresAnimes ">
+        @foreach (var item in Model)
+        {
+            var imgPath = item.Id + ".jpg";
+            <a asp-action="Details" asp-route-id="@item.Id"><img class="imgT" src="~/Img/@imgPath" alt="Pôster do @item.Nome"></a>
+}
+    </div>
+</div>

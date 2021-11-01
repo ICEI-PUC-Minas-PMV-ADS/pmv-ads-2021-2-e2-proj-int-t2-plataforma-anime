@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - app_web_backend</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/header.css" />
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" asp-area="" asp-controller="Animes" asp-action="Index"><img src="~/Img/logo-Pequeno.png" alt=""></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+                <ul class="navbar-nav">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Animes" asp-action="Index"> Início <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Usuarios" asp-action="Details" asp-route-id="@User.Identity.Name">Perfil</a>
+                        </li>
+                        @if (User.IsInRole("1"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Animes" asp-action="Create"> Adicionar anime</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Generos" asp-action="Create"> Adicionar gênero</a>
+                            </li>
+                        }
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Usuarios" asp-action="Logout">Sair</a>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </nav>
+
+        @if (User.Identity.IsAuthenticated)
+        {
+            <div class="div-search-header">
+                <input type="search" class="searchBar" name="searchBar" id="searchBar" placeholder="Barra de pesquisa">
+
+                <abbr title="Pequisar"><button class="searchButton" id="searchButton" onclick="pesquisar()"><img src="~/Img/search-solid.svg" alt="Lupa de pesquisa"></button></abbr>
+            </div>
+
+        }
+
+    </header>
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
