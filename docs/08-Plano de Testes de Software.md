@@ -5,7 +5,7 @@ Para realização dos casos de teste, serão necessários alguns requisitos:
 * Site já publicado
 * Navegador da internet - Chrome ou Edge
 * Conectividade com internet
-* Massa de dados criada em banco de dados. 
+* Massa de dados gerada em banco de dados. 
 
 Os testes funcionais serão realizados conforme descrito abaixo:
  
@@ -17,8 +17,13 @@ Os testes funcionais serão realizados conforme descrito abaixo:
  |`MASSA DE TESTE`|Usuário teste cadastrado do sistema <br> Email: teste.animescode@gmail.com <br>Senha: Animescode@1|
  |`PASSOS`| * Acessar o Navegador<br> * Informar a Url do site <br> * Visualizar a página principal <br> * Realizar Login <br> * Realizar pesquisa de animes pelos filtros citados em Requisitos Associados|
  |`CRITÉRIOS DE ÉXITO`| O usuário consegue acessar a plataforma com sucesso.|
+ <br>
+
+ https://user-images.githubusercontent.com/78831493/139751840-c82d6c05-d4a4-4150-a424-d2282f79c8be.mp4 
  
- <br> <br>
+ *Evidência de teste*
+
+<br>
  
  |`CASO DE TESTE`| CT02 Login sem sucesso de usuário cadastrado|
  |:-----------:|:---------:|
@@ -27,6 +32,10 @@ Os testes funcionais serão realizados conforme descrito abaixo:
  |`MASSA DE TESTE`|Login inválido e senha válida <br> E-mail: naruto.top@gmail.com <br> Senha: Animescode@1|
  |`PASSOS`| * Acessar o Navegador <br> * Informar a Url do site <br> * Visualizar a página principal <br> * Informar login errado e senha correta|
  |`CRITÉRIOS DE ÉXITO`| O sistema deve emitir a mensagem "e-mail ou senha incorretos"|
+
+ ![TelaLoginUsuarioInvalido](https://user-images.githubusercontent.com/78831493/139755171-64a1c31d-bb6d-4d61-8f35-ed6b1e713c4b.jpeg)
+
+ *Evidência de teste*
  
  <br> <br>
  
@@ -38,6 +47,10 @@ Os testes funcionais serão realizados conforme descrito abaixo:
  |`PASSOS`| * Acessar o Navegador <br> * Informar a Url do site <br> * Visualizar a página principal <br> * Informar login válido e senha incorreta|
  |`CRITÉRIOS DE ÉXITO`| O sistema deve emitir a mensagem "e-mail ou senha incorretos"|
  
+ ![TelaLoginUsuarioInvalido](https://user-images.githubusercontent.com/78831493/139755171-64a1c31d-bb6d-4d61-8f35-ed6b1e713c4b.jpeg)
+
+ *Evidência de teste*
+ 
  <br> <br>
  
  |`CASO DE TESTE`| CT04 Login sem sucesso de usuário cadastrado|
@@ -47,6 +60,10 @@ Os testes funcionais serão realizados conforme descrito abaixo:
  |`MASSA DE TESTE`|Login e senha inválidos <br> E-mail: naruto.top@gmail.com <br> Senha: Tanjiro01*|
  |`PASSOS`| * Acessar o Navegador <br> * Informar a Url do site <br> * Visualizar a página principal <br> * Informar login e senha inválidos|
  |`CRITÉRIOS DE ÉXITO`| O sistema deve emitir a mensagem "e-mail ou senha incorretos"|
+ 
+ ![TelaLoginUsuarioInvalido](https://user-images.githubusercontent.com/78831493/139755171-64a1c31d-bb6d-4d61-8f35-ed6b1e713c4b.jpeg)
+
+ *Evidência de teste*
  
 <br> <br>
 
@@ -60,14 +77,24 @@ Os testes funcionais serão realizados conforme descrito abaixo:
  
  <br> <br>
  
- |`CASO DE TESTE`| CT06  Verificar elementos do filtro de pesquisa|
- |:-----------:|:---------:|
- |`REQUISITOS ASSOCIADOS`|RF - 03 O site deve permitir uma pesquisa de animes possibilitando o uso dos filtros nome, gênero, autor, estúdio e nota.|
- |`OBJETIVO DO TESTE`| Verificar se o filtro está retornando os registros buscados de forma correta.|
- |`MASSA DE TESTE`|Usuário teste cadastrado do sistema <br> Email: teste.animescode@gmail.com <br> Senha: Animescode@1|
- |`PASSOS`| * Acessar o Navegador <br> * Informar a Url do site <br> * Visualizar a página principal <br> * Realizar Login <br> * Realizar pesquisa de animes pelos filtros citados em Requisitos Associados|
- |`CRITÉRIOS DE ÉXITO`|O sistema deve retornar ao usuário as pesquisas de acordo com os filtros selecionados.|
+
  
+ |`CASO DE TESTE`| CT06 Criação de domínio de administrador|
+ |:-----------:|:---------:|
+ |`REQUISITOS ASSOCIADOS`|RF-08| Deverá ser criado um domínio de administrador para criação dos animes e suas descrições|
+ |`OBJETIVO DO TESTE`| Verificar a autenticação do domínio de administrador e sua criação em banco de dados|
+ |`MASSA DE TESTE`|Usuário teste cadastrado do sistema <br> Email:Admin <br> Senha: ****** |
+ |`PASSOS`| * Acessar o Navegador <br> * Informar a Url do site <br> * Visualizar a página principal <br> * Realizar Login com dominío admin <br> * Verificar se o mesmo possui a autorização para adição de animes e suas descrições|
+ |`CRITÉRIOS DE ÉXITO`|O sistema deve permitir o login do admin e o cadastro de animes.|
+ 
+ ![PerfilAdmin](https://user-images.githubusercontent.com/78831493/139756727-4d488598-dcac-420e-be02-783c37d5a721.jpeg)
+ 
+![BancoDeDadosAdmin](https://user-images.githubusercontent.com/78831493/139756733-48bd4d9f-b42a-4b85-bc61-ae0e5752bfd7.png)
+
+![PerfilAdmin1](https://user-images.githubusercontent.com/78831493/139756804-02e76db4-cb89-4c55-b12d-4a05940de8e9.jpeg)
+
+
+
   <br> <br>
   
  |`CASO DE TESTE`|CT07  Acompanhamento das temporadas de um anime.|
