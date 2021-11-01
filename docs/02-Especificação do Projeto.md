@@ -37,9 +37,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-05| O site deve permitir que o usuário avalie as obras que desejar.| `ALTA`|
 |RF-06| O usuario só pode avaliar o anime, após finaliza-lo.|`ALTA`|
 |RF-07| O acesso ao conteúdo do site será permitido apenas, a usuário previamente cadastrados.|`ALTA`|
-|RF-08| O usuário poderá criar uma lista de animes que está assistindo no momento e marcar seu progresso que será diferenciado por cores.  Animes já assistidos *em verde*, os animes em andamento *de amarelo*, animes para assistir depois *em roxo.*| `MÉDIA` |
-|RF-09| O site deve emitir uma lista com o nome” minha lista de animes”. | `MÉDIA` |
-|RF-10|O site deverá conter sinopse dos animes.| `BAIXA` |
+|RF-08| Deverá ser criado um domínio de administrador para criação dos animes e suas descrições|`ALTA`|
+|RF-09| O usuário poderá criar uma lista de animes que está assistindo no momento e marcar seu progresso que será diferenciado por cores.  Animes já assistidos *em verde*, os animes em andamento *de amarelo*, animes para assistir depois *em roxo.*| `MÉDIA` |
+|RF-10| O site deve emitir uma lista com o nome” minha lista de animes”. | `MÉDIA` |
+|RF-11|O site deverá conter sinopse dos animes.| `BAIXA` |
 
 ### Requisitos não Funcionais
 A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
