@@ -7,7 +7,6 @@
 |Carlos Eduardo|15|Estudante do ensino médio. Gosta de jogos online e possui facilidade para uso de internet.|Instagram, Netflix, Amazon Prime, Crunchyroll, Youtube|Acompanhar de forma organizada os animes que está assistindo e conhecer novos animes.|Ficar perdido quanto ao episódio  que está no momento.|Filmes e séries, taekwondo|
 |Maria Julia|29| Fisioterapeuta, apaixonada por animes de suspense, faz uso computador no dia a dia, possui facilidade para o uso da internet.|Instagram, Netflix, Animes Fire, Uber, Ifood|Conseguir filtrar os melhores animes de acordo com o gênero que ela mais gosta, suspense e conhecer novos animes|Conseguir feedbacks reais a respeito da qualidade dos animes.|Caminhadas ao ar livre e Ir ao cinema|
 |Ana Laura|19|Auxiliar de estoque, possui uma rotina intensa de trabalho, precisando se organizar dentro das suas atividades. Informa aptidão no uso da internet.|Instagram, Netflix, Nubank, Twitter, Ifood|Encontrar um lugar onde eu consiga interagir com outros usuários dando notas para meus animes favoritos.|Não consigo encontrar um local exclusivo para catalogar e falar sobre animes.|Ir a restaurantes e Ouvir músicas|
-|João Paulo|45|Analista de sistemas em empresa de grande porte, otaku. Trabalha diariamente com tecnologia, por isso tem facilidade no uso da internet.|Facebook, Amazon Prime, Inter, Twitter, Ifood|Ter acesso a uma plataforma onde fosse possível catalogar os animes que já assisti.|Não tenho a possibilidade de fazer uma lista de animes para assistir no futuro.|Estudar inglês, andar de bicicleta, maratonar meus animes favoritos|
 
 
 ## Histórias de Usuários
@@ -31,16 +30,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-01| O site deve apresentar uma página de login para autenticação de usuários cadastrados.| `ALTA` | 
-|RF-02| O site deve apresentar um link na página de login para cadastro de novos usuários através de um formulário. <br> Este formulário deve conter: <br> * Nome <br> * Data de nascimento <br> * E-mail <br> * Confirmar e-mail <br> * Senha <br> * Confirmar Senha.| `ALTA`  |
+|RF-02| O site deve apresentar um link na página de login para cadastro de novos usuários através de um formulário. <br> Este formulário deve conter: <br> * Nome <br> * Data de nascimento <br> * E-mail <br> * Senha <br>.| `ALTA`  |
 |RF-03| O site deve permitir uma pesquisa de animes com o uso dos filtros nome, gênero, autor, estúdio e nota| `ALTA`  |
-|RF-04| O site deve possibilitar que o usuário marque em qual episódio da temporada e em qual temporada ele está.| `ALTA`|
-|RF-05| O site deve permitir que o usuário avalie as obras que desejar.| `ALTA`|
-|RF-06| O usuario só pode avaliar o anime, após finaliza-lo.|`ALTA`|
-|RF-07| O acesso ao conteúdo do site será permitido apenas, a usuário previamente cadastrados.|`ALTA`|
-|RF-08| Deverá ser criado um domínio de administrador para criação dos animes e suas descrições|`ALTA`|
-|RF-09| O usuário poderá criar uma lista de animes que está assistindo no momento e marcar seu progresso que será diferenciado por cores.  Animes já assistidos *em verde*, os animes em andamento *de amarelo*, animes para assistir depois *em roxo.*| `MÉDIA` |
-|RF-10| O site deve emitir uma lista com o nome” minha lista de animes”. | `MÉDIA` |
-|RF-11|O site deverá conter sinopse dos animes.| `BAIXA` |
+|RF-04| O acesso ao conteúdo do site será permitido apenas, a usuário previamente cadastrados.|`ALTA`|
+|RF-05| Deverá ser criado um domínio de administrador para criação dos animes e suas descrições|`ALTA`|
+|RF-06| O usuário poderá criar uma lista de animes que está assistindo no momento e marcar seu progresso que será diferenciado por cores.  Animes já assistidos *em verde*, os animes em andamento *de amarelo*, animes para assistir depois *em roxo.*| `MÉDIA` |
+|RF-7| O site deve emitir uma lista com o nome” minha lista de animes”. | `BAIXA` |
+|RF-8|O site deverá conter sinopse dos animes.| `BAIXA` |
+|RF-9|O site deverá permitir que o administrador adicione gênero e altere animes.| `BAIXA` |
 
 ### Requisitos não Funcionais
 A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
