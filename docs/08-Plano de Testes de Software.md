@@ -93,11 +93,9 @@ Os testes funcionais serão realizados conforme descrito abaixo:
  |`PASSOS`| * Acessar o Navegador <br> * Informar a Url do site <br> * Visualizar a página principal <br> * Realizar Login com dominío admin <br> * Verificar se o mesmo possui a autorização para adição de animes e suas descrições|
  |`CRITÉRIOS DE ÉXITO`|O sistema deve permitir o login do admin e o cadastro de animes.|
  
- ![PerfilAdmin](https://user-images.githubusercontent.com/78831493/139756727-4d488598-dcac-420e-be02-783c37d5a721.jpeg)
+ ![image](https://user-images.githubusercontent.com/75825162/143968178-a3560817-5fe4-41ee-8e38-7f6b60c67271.png)
  
-![BancoDeDadosAdmin](https://user-images.githubusercontent.com/78831493/139756733-48bd4d9f-b42a-4b85-bc61-ae0e5752bfd7.png)
-
-![PerfilAdmin1](https://user-images.githubusercontent.com/78831493/139756804-02e76db4-cb89-4c55-b12d-4a05940de8e9.jpeg)
+ ![image](https://user-images.githubusercontent.com/75825162/143968252-9b9e7bd7-1c1d-4e1f-8e91-696e381004c9.png)
 
 
 
