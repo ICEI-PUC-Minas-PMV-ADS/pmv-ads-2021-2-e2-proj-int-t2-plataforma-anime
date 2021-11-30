@@ -96,16 +96,17 @@ Os testes funcionais serão realizados conforme descrito abaixo:
  ![image](https://user-images.githubusercontent.com/75825162/143968178-a3560817-5fe4-41ee-8e38-7f6b60c67271.png)
  
  ![image](https://user-images.githubusercontent.com/75825162/143968252-9b9e7bd7-1c1d-4e1f-8e91-696e381004c9.png)
-
+ 
+  *Evidência de teste*
 
 
   <br> <br>
   
- |`CASO DE TESTE`|CT07  Criar, alterar e excluir gêneros de anime.|
+ |`CASO DE TESTE`|CT07 Administrador poder criar, alterar e excluir gêneros de anime.|
  |:-----------:|:---------:|
  |`REQUISITOS ASSOCIADOS`|RF-04 O site deve possibilitar que o administrador crie, altere e exclua gêneros.|
  |`OBJETIVO DO TESTE`| Verificar se o radius para essas funções estão clicáveis e funcionando.  |
- |`MASSA DE TESTE`|Usuário teste cadastrado do sistema <br> Email: adm@gmail.com <br> Senha: 123|
+ |`MASSA DE TESTE`|Usuário admin cadastrado do sistema <br> Email: adm@gmail.com <br> Senha: 123|
  |`PASSOS`|* Acessar o Navegador <br> * Informar a Url do site <br> * Visualizar a página principal <br> * Realizar Login <br> * Acessar Adicionar gênero <br> * Criar um novo gênero <br> * Clicar em editar esse gênero criado <br> * Excluir gênero que acabou de ser criado .|
  |`CRITÉRIOS DE ÉXITO`|O sistema deve reconhecer todas as funcionalidades faladas acima.|
 
@@ -113,11 +114,11 @@ Os testes funcionais serão realizados conforme descrito abaixo:
  
   <br> <br>
   
- |`CASO DE TESTE`|CT08  Visualizar e excluir usuários.|
+ |`CASO DE TESTE`|CT08 Administrador poder visualizar e excluir usuários.|
  |:-----------:|:---------:|
  |`REQUISITOS ASSOCIADOS`|RF-04 O site deve possibilitar que o administrador visualize e exclua usuários.|
  |`OBJETIVO DO TESTE`| Verificar se o radius para essas funções estão clicáveis e funcionando.  |
- |`MASSA DE TESTE`|Usuário teste cadastrado do sistema <br> Email: adm@gmail.com <br> Senha: 123|
+ |`MASSA DE TESTE`|Usuário admin cadastrado do sistema <br> Email: adm@gmail.com <br> Senha: 123|
  |`PASSOS`|* Acessar o Navegador <br> * Informar a Url do site <br> * Visualizar a página principal <br> * Realizar Login <br> * Acessar Visualizar Usuários <br> * Verificar se será listado os usuários <br> * Excluir algum usuário .|
  |`CRITÉRIOS DE ÉXITO`|O sistema deve reconhecer todas as funcionalidades reproduzindo a lista de usuários e excluindo com êxito um usuário.|
  
@@ -125,33 +126,29 @@ Os testes funcionais serão realizados conforme descrito abaixo:
 
   <br> <br>
   
- |`CASO DE TESTE`|CT09 Usuário avaliar com notas os animes assistidos. |
+ |`CASO DE TESTE`|CT09 Administrador poder editar animes. |
  |:-----------:|:---------:|
- |`REQUISITOS ASSOCIADOS`|RF-07  O usuário só pode dar nota ao anime, após finalizá-lo.|
- |`OBJETIVO DO TESTE`|Verificar se o usuário está conseguindo avaliar o anime, apenas quando todos os episódios e temporadas estão marcados como concluído.|
- |`MASSA DE TESTE`|Usuário teste cadastrado do sistema <br> Email: teste.animescode@gmail.com <br> Senha: Animescode@1|
- |`PASSOS`|* Acessar o Navegador <br> * Informar a Url do site <br> * Visualizar a página principal <br> * Realizar Login <br> * Acessar lista de animes <br> * Acessar lista de animes <br> * Avaliar com nota anime já marcado como finalizado.|
- |`CRITÉRIOS DE ÉXITO`| O sistema deve permitir a avaliação apenas em animes já finalizados.|
+ |`REQUISITOS ASSOCIADOS`|RF-07 O site deve possibilitar que o administrador edite animes.|
+ |`OBJETIVO DO TESTE`| Verificar se o radius para essas funções estão clicáveis e funcionando.  |
+ |`MASSA DE TESTE`|Usuário admin cadastrado do sistema <br> Email: teste.animescode@gmail.com <br> Senha: Animescode@1|
+ |`PASSOS`|* Acessar o Navegador <br> * Informar a Url do site <br> * Visualizar a página principal <br> * Clicar em algum anime <br> * Clicar no botão de editar anime <br> * Realizar a edição de algum campo <br> * Verificar se o campo foi alterado..|
+ |`CRITÉRIOS DE ÉXITO`| O sistema deve realizar a alteração com êxito, e ser verificada essa alteração.|
+ 
+ https://user-images.githubusercontent.com/75825162/143970723-61b5ff97-7d1b-487b-b833-d201f6fffb37.mp4
  
  <br> <br>
  
- |`CASO DE TESTE`|CT10 Alteração do status pós marcação em anime.|
+ |`CASO DE TESTE`|CT10 Logout com sucesso de usuário logado .|
  |:-----------:|:---------:|
- |`REQUISITOS ASSOCIADOS`|RF-09 O usuário poderá criar uma lista de animes que está assistindo no momento e marcar seu progresso que será diferenciado por cores. Animes já assistidos em verde, os animes em andamento de amarelo, animes para assistir depois em roxo.|
- |`OBJETIVO DO TESTE`|Verificar se o usuário está conseguindo avaliar o anime, apenas quando todos os episódios e temporadas estão marcados como concluído.|
- |`MASSA DE TESTE`|Usuário teste cadastrado do sistema <br> Email: teste.animescode@gmail.com <br> Senha: Animescode@1|
- |`PASSOS`|* Acessar o Navegador <br> * Informar a Url do site <br> * Visualizar a página principal <br> * Realizar Login <br> * Pesquisar anime <br> * Marca-lo como lido/em andamento/ver depois.|
- |`CRITÉRIOS DE ÉXITO`| O site deve possibilitar que o usuário marque as opçõeslido/em andamento/ver depois, no anime selecionado|
+ |`REQUISITOS ASSOCIADOS`|RF-01 O site deve apresentar um botão de Sair, e fazer logout do site, voltando para tela de login .|
+ |`OBJETIVO DO TESTE`| Verificar se o usuário será desconectado e voltará para página de login .|
+ |`MASSA DE TESTE`|Usuário teste cadastrado do sistema <br> Email: adm@gmail.com <br>Senha: 123|
+ |`PASSOS`| * Acessar o Navegador<br> * Informar a Url do site <br> * Visualizar a página principal <br> * Realizar Login <br> * Clicar no botão Sair<br> |
+ |`CRITÉRIOS DE ÉXITO`| O usuário será deslogado com sucesso e voltará para a tela de login.|
+ <br>
  
+ https://user-images.githubusercontent.com/75825162/143971390-e3f0967a-537a-4eff-a4a3-8f15266239d3.mp4
+
 <br> <br>
-
- |`CASO DE TESTE`|CT12 Lista de animes em PDF|
- |:-----------:|:---------:|
- |`REQUISITOS ASSOCIADOS`|RF-11 O site deve emitir uma lista com o nome” minha lista de animes”.|
- |`OBJETIVO DO TESTE`|Gerar uma lista em PDF com animes presentes na lista do usuário.|
- |`MASSA DE TESTE`|Usuário teste cadastrado do sistema <br> Email: teste.animescode@gmail.com <br> Senha: Animescode@1|
- |`PASSOS`|* Acessar o Navegador <br> * Informar a Url do site <br> * Visualizar a página principal <br> * Realizar Login <br> * Acessar area do usuario <br> * Clicar em minha lista <br> * Gerar arquivo PDF|
- |`CRITÉRIOS DE ÉXITO`|O sistema deve emitir um arquivo em PDF com os animes adicionados a lista do usuário. |
-
 
  
