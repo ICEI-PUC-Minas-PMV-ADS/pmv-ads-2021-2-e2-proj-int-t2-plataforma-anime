@@ -75,6 +75,10 @@ Os testes funcionais serão realizados conforme descrito abaixo:
  |`PASSOS`|* Acessar o Navegador Informar a Url do site <br> * Visualizar a página principal <br> * Clicar no link para cadastro de novos usuários <br> * Realizar cadastro completo <br> * Efetuar login|
  |`CRITÉRIOS DE ÉXITO`|  O sistema deve permitir o cadastro de um novo usuário e liberar o seu acesso.|
  
+  https://user-images.githubusercontent.com/78831493/139751840-c82d6c05-d4a4-4150-a424-d2282f79c8be.mp4 
+  
+  *Evidência de teste*
+ 
  <br> <br>
  
 
