@@ -23,7 +23,7 @@
             @Html.DisplayFor(model => model.Descricao)
         </p>
 
-        <a class="link-a" asp-area="" asp-controller="Listas" asp-action="Create" asp-route-id="1">Adicionar anime à minha lista</a>            
+        <!--<a class="link-a" asp-area="" asp-controller="Listas" asp-action="Create" asp-route-id="1">Adicionar anime à minha lista</a>            -->
         @if (User.Identity.IsAuthenticated)
         {
             @if (User.IsInRole("1"))
