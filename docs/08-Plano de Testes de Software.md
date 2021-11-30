@@ -101,24 +101,28 @@ Os testes funcionais serão realizados conforme descrito abaixo:
 
   <br> <br>
   
- |`CASO DE TESTE`|CT07  Acompanhamento das temporadas de um anime.|
+ |`CASO DE TESTE`|CT07  Criar, alterar e excluir gêneros de anime.|
  |:-----------:|:---------:|
- |`REQUISITOS ASSOCIADOS`|RF-04 O site deve possibilitar que o usuário marque em qual temporada e episódio ele está.|
- |`OBJETIVO DO TESTE`| Verificar se o  radius para seleção de temporada inteira está clicável.  |
- |`MASSA DE TESTE`|Usuário teste cadastrado do sistema <br> Email: teste.animescode@gmail.com <br> Senha: Animescode@1|
- |`PASSOS`|* Acessar o Navegador <br> * Informar a Url do site <br> * Visualizar a página principal <br> * Realizar Login <br> * Acessar lista de animes <br> * Selecionar um anime <br> * Clicar no radius ao lado da temporada, para marcar como assistida.|
- |`CRITÉRIOS DE ÉXITO`|O sistema deve reconhecer que toda a temporada foi vista com esta ação.|
+ |`REQUISITOS ASSOCIADOS`|RF-04 O site deve possibilitar que o administrador crie, altere e exclua gêneros.|
+ |`OBJETIVO DO TESTE`| Verificar se o radius para essas funções estão clicáveis e funcionando.  |
+ |`MASSA DE TESTE`|Usuário teste cadastrado do sistema <br> Email: adm@gmail.com <br> Senha: 123|
+ |`PASSOS`|* Acessar o Navegador <br> * Informar a Url do site <br> * Visualizar a página principal <br> * Realizar Login <br> * Acessar Adicionar gênero <br> * Criar um novo gênero <br> * Clicar em editar esse gênero criado <br> * Excluir gênero que acabou de ser criado .|
+ |`CRITÉRIOS DE ÉXITO`|O sistema deve reconhecer todas as funcionalidades faladas acima.|
+
+ https://user-images.githubusercontent.com/75825162/143969311-c5fad904-220b-41d9-9831-0f9801e1da91.mp4
  
   <br> <br>
   
- |`CASO DE TESTE`|CT08  Acompanhamento dos episódios da temporada|
+ |`CASO DE TESTE`|CT08  Visualizar e excluir usuários.|
  |:-----------:|:---------:|
- |`REQUISITOS ASSOCIADOS`|RF-04 O site deve possibilitar que o usuário marque em qual temporada e episódio ele está.|
- |`OBJETIVO DO TESTE`|Verificar se o checkbox para seleção de um episódio dentro de uma temporada está clicável.a|
- |`MASSA DE TESTE`|Usuário teste cadastrado do sistema <br> Email: teste.animescode@gmail.com <br> Senha: Animescode@1|
- |`PASSOS`|* Acessar o Navegador <br> * Informar a Url do site <br> * Visualizar a página principal <br> * Realizar Login <br> * Acessar lista de animes <br> * Selecionar um anime <br> * Clicar no checkbox para marcar o episódio.|
- |`CRITÉRIOS DE ÉXITO`|O sistema deve reconhecer que toda a temporada foi vista com esta ação.|
+ |`REQUISITOS ASSOCIADOS`|RF-04 O site deve possibilitar que o administrador visualize e exclua usuários.|
+ |`OBJETIVO DO TESTE`| Verificar se o radius para essas funções estão clicáveis e funcionando.  |
+ |`MASSA DE TESTE`|Usuário teste cadastrado do sistema <br> Email: adm@gmail.com <br> Senha: 123|
+ |`PASSOS`|* Acessar o Navegador <br> * Informar a Url do site <br> * Visualizar a página principal <br> * Realizar Login <br> * Acessar Visualizar Usuários <br> * Verificar se será listado os usuários <br> * Excluir algum usuário .|
+ |`CRITÉRIOS DE ÉXITO`|O sistema deve reconhecer todas as funcionalidades reproduzindo a lista de usuários e excluindo com êxito um usuário.|
  
+ https://user-images.githubusercontent.com/75825162/143969898-67e468c1-44a3-4610-b429-63723a970348.mp4
+
   <br> <br>
   
  |`CASO DE TESTE`|CT09 Usuário avaliar com notas os animes assistidos. |
