@@ -74,6 +74,24 @@ p{
     margin: 64px;
 }
 
+.link-a {
+    margin: 8px;
+    background: #09005c;
+    border-radius: 30px;
+    border: none;
+    padding: 4px;
+    width: 14em;
+    height: 2em;
+    color: white;
+    display: inline-block;
+    text-decoration: unset;    
+}
+.link-a:hover {
+    background-color: #2e2177;
+    color: white;
+    text-decoration: unset;
+}
+
 .botao{
     margin: 8px;
     background: #09005c;

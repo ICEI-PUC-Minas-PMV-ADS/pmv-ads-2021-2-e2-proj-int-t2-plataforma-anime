@@ -46,13 +46,15 @@ namespace app_web_backend.Controllers
         }
 
         // GET: Listas/Create
-        public IActionResult Create()
+        public IActionResult Create(int? id)        
         {
-            ViewData["AnimeId"] = new SelectList(_context.Animes, "Id", "Descricao");
-            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email");
+
+            ViewData["AnimeId"] = new SelectList(_context.Animes, "Id", "Nome");
+            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Nome");
+
             return View();
         }
-
+        
         // POST: Listas/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
@@ -66,8 +68,8 @@ namespace app_web_backend.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["AnimeId"] = new SelectList(_context.Animes, "Id", "Descricao", lista.AnimeId);
-            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email", lista.UsuarioId);
+            ViewData["AnimeId"] = new SelectList(_context.Animes, "Id", "Nome", lista.AnimeId);
+            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Nome", lista.UsuarioId);
             return View(lista);
         }
 
@@ -84,8 +86,8 @@ namespace app_web_backend.Controllers
             {
                 return NotFound();
             }
-            ViewData["AnimeId"] = new SelectList(_context.Animes, "Id", "Descricao", lista.AnimeId);
-            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email", lista.UsuarioId);
+            ViewData["AnimeId"] = new SelectList(_context.Animes, "Id", "Nome");
+            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Nome");
             return View(lista);
         }
 
@@ -121,8 +123,8 @@ namespace app_web_backend.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["AnimeId"] = new SelectList(_context.Animes, "Id", "Descricao", lista.AnimeId);
-            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email", lista.UsuarioId);
+            ViewData["AnimeId"] = new SelectList(_context.Animes, "Id", "Nome");
+            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Nome");
             return View(lista);
         }
 

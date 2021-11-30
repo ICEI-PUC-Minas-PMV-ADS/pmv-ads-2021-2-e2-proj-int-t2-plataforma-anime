@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using app_web_backend.Models;
 using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace app_web_backend.Controllers
 {
@@ -51,7 +52,7 @@ namespace app_web_backend.Controllers
         // GET: Animes/Create
         public IActionResult Create()
         {
-            ViewData["GeneroId"] = new SelectList(_context.Generos, "Id", "Descricao");
+            ViewData["GeneroId"] = new SelectList(_context.Generos, "Id", "Nome");
             return View();
         }
 
@@ -68,7 +69,7 @@ namespace app_web_backend.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["GeneroId"] = new SelectList(_context.Generos, "Id", "Descricao", anime.GeneroId);
+            ViewData["GeneroId"] = new SelectList(_context.Generos, "Id", "Nome", anime.GeneroId);
             return View(anime);
         }
 
@@ -85,7 +86,7 @@ namespace app_web_backend.Controllers
             {
                 return NotFound();
             }
-            ViewData["GeneroId"] = new SelectList(_context.Generos, "Id", "Descricao", anime.GeneroId);
+            ViewData["GeneroId"] = new SelectList(_context.Generos, "Id", "Nome", anime.GeneroId);
             return View(anime);
         }
 
@@ -121,7 +122,7 @@ namespace app_web_backend.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["GeneroId"] = new SelectList(_context.Generos, "Id", "Descricao", anime.GeneroId);
+            ViewData["GeneroId"] = new SelectList(_context.Generos, "Id", "Nome", anime.GeneroId);
             return View(anime);
         }
 
@@ -158,6 +159,18 @@ namespace app_web_backend.Controllers
         private bool AnimeExists(int id)
         {
             return _context.Animes.Any(e => e.Id == id);
+        }
+
+        public async Task<IActionResult> Criar([Bind("AnimeId")] Lista lista)
+        {
+            
+            if (ModelState.IsValid)
+            {
+                _context.Add(lista);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(lista);
         }
     }
 }

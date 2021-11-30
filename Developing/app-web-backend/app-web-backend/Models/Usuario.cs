@@ -18,13 +18,12 @@ namespace app_web_backend.Models
 
         [Required(ErrorMessage = "Obrigatório informar o e-mail!")]
         public string Email { get; set; }
-        public char Status { get; set; }
+        public int Status { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar a senha!")]
-        [DataType(DataType.Password)]
         public string Senha { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar a data de nascimento!")]
-        public DateTime Data_nasc { get; set; }
+        public string Data_nasc { get; set; }
     }
 }

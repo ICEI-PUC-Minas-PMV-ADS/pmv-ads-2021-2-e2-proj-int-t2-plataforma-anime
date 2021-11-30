@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V2a32F3yyzpnxb14jV0AcpvlEMvfXGeVPrjEmlkE7SGmCLdD3kY73SaAzIrR4l+01YEyw2VSSynFZ9pNpcOBng==",
+  "dgSpecHash": "6byucTpmllWpeP3uFYtvzEf2juGR3Khj8uQRBiG5Vdjp2YhoEL+KI0a7/comjxC3HX6Pg7jVoquxlk2AhAiZog==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gusta\\OneDrive\\Área de Trabalho\\Faculdade\\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\\Developing\\app-web-backend\\app-web-backend\\app-web-backend.csproj",
+  "projectFilePath": "C:\\Users\\gusta\\OneDrive\\Área de Trabalho\\Faculdade\\v00\\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\\Developing\\app-web-backend\\app-web-backend\\app-web-backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gusta\\.nuget\\packages\\bcrypt.net-next\\4.0.2\\bcrypt.net-next.4.0.2.nupkg.sha512",
     "C:\\Users\\gusta\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

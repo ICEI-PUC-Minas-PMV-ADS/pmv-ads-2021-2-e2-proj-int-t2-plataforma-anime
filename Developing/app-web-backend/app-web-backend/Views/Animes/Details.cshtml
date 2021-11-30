@@ -23,14 +23,16 @@
             @Html.DisplayFor(model => model.Descricao)
         </p>
 
-        <button class="botao">Adicionar na minha lista</button>
+        <a class="link-a" asp-area="" asp-controller="Listas" asp-action="Create" asp-route-id="1">Adicionar anime à minha lista</a>            
         @if (User.Identity.IsAuthenticated)
         {
             @if (User.IsInRole("1"))
             {
-                <button class="botao">Editar</button>
+                //<button asp-action="Edit" asp-route-id="@Model.Id" class="botao">Editar</button>
+                <a class="link-a" asp-action="Edit" asp-route-id="@Model.Id">Editar anime</a>
             }
         }
+
     </div>
 </div>
 

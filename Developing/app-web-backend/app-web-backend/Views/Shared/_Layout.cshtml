@@ -37,6 +37,9 @@
                             <li class="nav-item">
                                 <a class="nav-link" asp-area="" asp-controller="Generos" asp-action="Create"> Adicionar gênero</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Usuarios" asp-action="Index"> Visualizar usuários</a>
+                            </li>
                         }
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="Usuarios" asp-action="Logout">Sair</a>
@@ -46,15 +49,12 @@
             </div>
         </nav>
 
-        @if (User.Identity.IsAuthenticated)
-        {
-            <div class="div-search-header">
+        <!--    <div class="div-search-header">
                 <input type="search" class="searchBar" name="searchBar" id="searchBar" placeholder="Barra de pesquisa">
 
                 <abbr title="Pequisar"><button class="searchButton" id="searchButton" onclick="pesquisar()"><img src="~/Img/search-solid.svg" alt="Lupa de pesquisa"></button></abbr>
             </div>
-
-        }
+        -->
 
     </header>
     <main role="main" class="pb-3">
