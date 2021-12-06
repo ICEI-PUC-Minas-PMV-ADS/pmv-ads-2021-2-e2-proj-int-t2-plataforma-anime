@@ -6,9 +6,8 @@ Para a realização dos testes de usabilidade, elencamos 3 objetivos para valida
 ### Modelo Teste de usabilidade
 
 Objetivos: 
-1. O usuário irá criar uma lista com animes que ele quer assistir, está assistindo ou já assistiu.
-2. O usuário irá buscar um anime utilizando os filtros nome e gênero. 
-3. O usuário deve acessar sua lista e alterar o progresso de um anime. 
+1. O administador irá cadastrar um anime.
+2. O usuário irá criar um cadastro e realizar login. 
 
 
 
