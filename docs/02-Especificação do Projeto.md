@@ -7,6 +7,7 @@
 |Carlos Eduardo|15|Estudante do ensino médio. Gosta de jogos online e possui facilidade para uso de internet.|Instagram, Netflix, Amazon Prime, Crunchyroll, Youtube|Acompanhar de forma organizada os animes que está assistindo e conhecer novos animes.|Ficar perdido quanto ao episódio  que está no momento.|Filmes e séries, taekwondo|
 |Maria Julia|29| Fisioterapeuta, apaixonada por animes de suspense, faz uso computador no dia a dia, possui facilidade para o uso da internet.|Instagram, Netflix, Animes Fire, Uber, Ifood|Conseguir filtrar os melhores animes de acordo com o gênero que ela mais gosta, suspense e conhecer novos animes|Conseguir feedbacks reais a respeito da qualidade dos animes.|Caminhadas ao ar livre e Ir ao cinema|
 |Ana Laura|19|Auxiliar de estoque, possui uma rotina intensa de trabalho, precisando se organizar dentro das suas atividades. Informa aptidão no uso da internet.|Instagram, Netflix, Nubank, Twitter, Ifood|Encontrar um lugar onde eu consiga interagir com outros usuários dando notas para meus animes favoritos.|Não consigo encontrar um local exclusivo para catalogar e falar sobre animes.|Ir a restaurantes e Ouvir músicas|
+|Pedro Ferraz|18|Estudante do pré-vestibular, fã de animes, curte programação.|Instagram, Netflix, YouTube|Colocar em prática estudos de programação e criar uma aplicação para gerenciar meus animes favoritos.|Falta de um local voltado para catalogar e falar sobre animes.| Jogar vídeo game e assitir séries.| 
 
 
 ## Histórias de Usuários
@@ -20,6 +21,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Eu Ana Laura| desejo criar uma lista e catalogar as obras que venho assistindo e interagir com demais usuários| para me organizar melhor e trocar experiências com outras pessoas | 
 |Eu, João Paulo|desejo ter a possibilidade de criar  listas com animes que desejo assistir|para que futuramente eu possa seguir minha lista e assistir os animes que desejo.|
 |Eu, Lucas Silva|desejo ter a possibilidade de compartilhar minha lista de anime com os meus amigos e filhos|para conhecer novos animes e também acompanhar o que meus amigos estão assistindo.|  
+|Eu, Pedro Ferraz|desejo criar uma aplicação capaz de catalogar animes|para fixar meu aprendizado adquiridos em cursos de programação.|
 
 ## Requisitos
 
@@ -31,13 +33,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-01| O site deve apresentar uma página de login para autenticação de usuários cadastrados.| `ALTA` | 
 |RF-02| O site deve apresentar um link na página de login para cadastro de novos usuários através de um formulário. <br> Este formulário deve conter: <br> * Nome <br> * Data de nascimento <br> * E-mail <br> * Senha <br>.| `ALTA`  |
-|RF-03| O site deve permitir uma pesquisa de animes com o uso dos filtros nome, gênero, autor, estúdio e nota| `ALTA`  |
-|RF-04| O acesso ao conteúdo do site será permitido apenas, a usuário previamente cadastrados.|`ALTA`|
-|RF-05| Deverá ser criado um domínio de administrador para criação dos animes e suas descrições|`ALTA`|
-|RF-06| O usuário poderá criar uma lista de animes que está assistindo no momento e marcar seu progresso que será diferenciado por cores.  Animes já assistidos *em verde*, os animes em andamento *de amarelo*, animes para assistir depois *em roxo.*| `MÉDIA` |
-|RF-7| O site deve emitir uma lista com o nome” minha lista de animes”. | `BAIXA` |
-|RF-8|O site deverá conter sinopse dos animes.| `BAIXA` |
-|RF-9|O site deverá permitir que o administrador adicione gênero e altere animes.| `BAIXA` |
+|RF-03| O acesso ao conteúdo do site será permitido apenas, a usuário previamente cadastrados.|`ALTA`|
+|RF-04| Deverá ser criado um domínio de administrador para criação dos animes e suas descrições|`ALTA`|
+|RF-05| O usuário poderá criar uma lista de animes que está assistindo no momento e marcar seu progresso que será diferenciado por cores.  Animes já assistidos *em verde*, os animes em andamento *de amarelo*, animes para assistir depois *em roxo.*| `BAIXA` |
+|RF-06| O site deve emitir uma lista com o nome” minha lista de animes”. | `BAIXA` |
+|RF-07|O site deverá conter sinopse dos animes.| `BAIXA` |
+|RF-08|O site deverá permitir que o administrador adicione gênero e altere animes.| `BAIXA` |
 
 ### Requisitos não Funcionais
 A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
@@ -45,7 +46,7 @@ A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-01| As informações cadastrais do usuário devem estar disponíveis apenas para o usuário e o administrador do sistema |`ALTA`| 
-|RNF-02| O site deverá utilizar tecnologias Front-end como HTML, CSS e Java|`ALTA`| 
+|RNF-02| O site deverá utilizar tecnologias Front-end como HTML, CSS e JavaScript|`ALTA`| 
 |RNF-03| O site deverá utilizar a linguagem C# para estruturar o Back - End|`ALTA`|
 |RNF-04|O site deve ser compatível com os navegadores Chrome e Explorer|`MEDIA`|
 |RFN-05|O layout do site deverá trabalhar com um esquema de cores que atenda visualmente o usuário portador de daltonismo|`BAIXA`|
