@@ -39,7 +39,9 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Data_nasc)
             </td>
-            <td>|               
+            <td>
+                <a class="text-dark" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                |
                 <a class="text-dark" asp-action="Delete" asp-route-id="@item.Id">Excluir</a>
             </td>
         </tr>

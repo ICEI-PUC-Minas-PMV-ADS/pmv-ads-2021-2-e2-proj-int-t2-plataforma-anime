@@ -1,0 +1,77 @@
+.modal-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+    .modal-container.mostrar {
+        display: flex;
+    }
+
+.modal-style {
+    background-color: #240D60;
+    width: 256px;
+    min-width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    padding: 32px;
+}
+
+/* Estilo dos elementos internos */
+
+.input-temp-ep {
+    width: 128px;
+    border-radius: 8px;
+    background-color: #E6E6E6;
+    border: none;
+    margin: 8px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.select-status {
+    width: 128px;
+    margin: 8px;
+    border-radius: 8px;
+    background-color: #E6E6E6;
+    border: none;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button-fechar {
+    position: absolute;
+    border: none;
+    background: transparent;
+    color: white;
+    top: 0;
+    right: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.salvar-button {
+    border: #7362e7 solid 3px;
+    background-color: transparent;
+    border-radius: 30px;
+    width: 5em;
+    height: 2em;
+    padding: 0 5px;
+    color: #fff;
+    font-size: 11pt;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    margin: 16px;
+}
+
+.nome-do-anime {
+    font-size: 15pt;
+    margin: 8px;
+}

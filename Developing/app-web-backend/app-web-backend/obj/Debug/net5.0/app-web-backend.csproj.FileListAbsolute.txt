@@ -1335,7 +1335,6 @@ C:\Users\gusta\OneDrive\Área de Trabalho\Faculdade\v00\pmv-ads-2021-2-e2-proj-i
 C:\Users\gusta\OneDrive\Área de Trabalho\Faculdade\v00\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Developing\app-web-backend\app-web-backend\obj\Debug\net5.0\app-web-backend.RazorCoreGenerate.cache
 C:\Users\gusta\OneDrive\Área de Trabalho\Faculdade\v00\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Developing\app-web-backend\app-web-backend\obj\Debug\net5.0\Razor\Views\Animes\Create.cshtml.g.cs
 C:\Users\gusta\OneDrive\Área de Trabalho\Faculdade\v00\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Developing\app-web-backend\app-web-backend\obj\Debug\net5.0\Razor\Views\Animes\Delete.cshtml.g.cs
-C:\Users\gusta\OneDrive\Área de Trabalho\Faculdade\v00\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Developing\app-web-backend\app-web-backend\obj\Debug\net5.0\Razor\Views\Animes\Details - Cópia.cshtml.g.cs
 C:\Users\gusta\OneDrive\Área de Trabalho\Faculdade\v00\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Developing\app-web-backend\app-web-backend\obj\Debug\net5.0\Razor\Views\Animes\Details.cshtml.g.cs
 C:\Users\gusta\OneDrive\Área de Trabalho\Faculdade\v00\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Developing\app-web-backend\app-web-backend\obj\Debug\net5.0\Razor\Views\Animes\Edit.cshtml.g.cs
 C:\Users\gusta\OneDrive\Área de Trabalho\Faculdade\v00\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Developing\app-web-backend\app-web-backend\obj\Debug\net5.0\Razor\Views\Animes\Index.cshtml.g.cs
@@ -1352,14 +1351,11 @@ C:\Users\gusta\OneDrive\Área de Trabalho\Faculdade\v00\pmv-ads-2021-2-e2-proj-i
 C:\Users\gusta\OneDrive\Área de Trabalho\Faculdade\v00\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Developing\app-web-backend\app-web-backend\obj\Debug\net5.0\Razor\Views\Listas\Edit.cshtml.g.cs
 C:\Users\gusta\OneDrive\Área de Trabalho\Faculdade\v00\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Developing\app-web-backend\app-web-backend\obj\Debug\net5.0\Razor\Views\Listas\Index.cshtml.g.cs
 C:\Users\gusta\OneDrive\Área de Trabalho\Faculdade\v00\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Developing\app-web-backend\app-web-backend\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
-C:\Users\gusta\OneDrive\Área de Trabalho\Faculdade\v00\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Developing\app-web-backend\app-web-backend\obj\Debug\net5.0\Razor\Views\Shared\_Layout - Cópia.cshtml.g.cs
 C:\Users\gusta\OneDrive\Área de Trabalho\Faculdade\v00\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Developing\app-web-backend\app-web-backend\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\gusta\OneDrive\Área de Trabalho\Faculdade\v00\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Developing\app-web-backend\app-web-backend\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\gusta\OneDrive\Área de Trabalho\Faculdade\v00\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Developing\app-web-backend\app-web-backend\obj\Debug\net5.0\Razor\Views\Usuarios\AccessDenied.cshtml.g.cs
-C:\Users\gusta\OneDrive\Área de Trabalho\Faculdade\v00\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Developing\app-web-backend\app-web-backend\obj\Debug\net5.0\Razor\Views\Usuarios\Create - Cópia.cshtml.g.cs
 C:\Users\gusta\OneDrive\Área de Trabalho\Faculdade\v00\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Developing\app-web-backend\app-web-backend\obj\Debug\net5.0\Razor\Views\Usuarios\Create.cshtml.g.cs
 C:\Users\gusta\OneDrive\Área de Trabalho\Faculdade\v00\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Developing\app-web-backend\app-web-backend\obj\Debug\net5.0\Razor\Views\Usuarios\Delete.cshtml.g.cs
-C:\Users\gusta\OneDrive\Área de Trabalho\Faculdade\v00\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Developing\app-web-backend\app-web-backend\obj\Debug\net5.0\Razor\Views\Usuarios\Details - Cópia.cshtml.g.cs
 C:\Users\gusta\OneDrive\Área de Trabalho\Faculdade\v00\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Developing\app-web-backend\app-web-backend\obj\Debug\net5.0\Razor\Views\Usuarios\Details.cshtml.g.cs
 C:\Users\gusta\OneDrive\Área de Trabalho\Faculdade\v00\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Developing\app-web-backend\app-web-backend\obj\Debug\net5.0\Razor\Views\Usuarios\Edit.cshtml.g.cs
 C:\Users\gusta\OneDrive\Área de Trabalho\Faculdade\v00\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Developing\app-web-backend\app-web-backend\obj\Debug\net5.0\Razor\Views\Usuarios\Index.cshtml.g.cs
@@ -1374,4 +1370,3 @@ C:\Users\gusta\OneDrive\Área de Trabalho\Faculdade\v00\pmv-ads-2021-2-e2-proj-i
 C:\Users\gusta\OneDrive\Área de Trabalho\Faculdade\v00\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Developing\app-web-backend\app-web-backend\obj\Debug\net5.0\ref\app-web-backend.dll
 C:\Users\gusta\OneDrive\Área de Trabalho\Faculdade\v00\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Developing\app-web-backend\app-web-backend\obj\Debug\net5.0\app-web-backend.pdb
 C:\Users\gusta\OneDrive\Área de Trabalho\Faculdade\v00\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Developing\app-web-backend\app-web-backend\obj\Debug\net5.0\app-web-backend.genruntimeconfig.cache
-C:\Users\gusta\OneDrive\Área de Trabalho\Faculdade\v00\pmv-ads-2021-2-e2-proj-int-t2-plataforma-anime\Developing\app-web-backend\app-web-backend\obj\Debug\net5.0\Razor\Views\Usuarios\Login copia.cshtml.g.cs
