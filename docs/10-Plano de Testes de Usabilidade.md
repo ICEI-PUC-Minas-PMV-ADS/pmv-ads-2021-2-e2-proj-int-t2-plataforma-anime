@@ -7,7 +7,7 @@ Para a realização dos testes de usabilidade, elencamos 3 objetivos para valida
 
 Objetivos: 
 1. O administador irá cadastrar um anime.
-2. O usuário irá criar um cadastro e realizar login. 
+2. O usuário irá criar um cadastro, realizar login, abrir a página de informações de um anime e acessar seu perfil. 
 
 
 
