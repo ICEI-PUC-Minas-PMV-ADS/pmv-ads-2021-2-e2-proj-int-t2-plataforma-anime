@@ -13,7 +13,6 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Igor Giovane da Costa
 * Lais Vitória Andrade Silva
 * Lorena Andrade Silva
-* Pablo Djorkaeff dos Santos 
 
 ## Orientador
 
