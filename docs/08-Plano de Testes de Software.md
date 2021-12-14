@@ -51,23 +51,9 @@ Os testes funcionais serão realizados conforme descrito abaixo:
 
  *Evidência de teste*
  
- <br> <br>
- 
- |`CASO DE TESTE`| CT04 Login sem sucesso de usuário cadastrado|
- |:-----------:|:---------:|
- |`REQUISITOS ASSOCIADOS`|RF-08 O acesso ao conteúdo do site será permitido apenas, a usuário previamente cadastrados.|
- |`OBJETIVO DO TESTE`| Verificar se o usuário consegue realizar o login com e-mail e senha incorretos.|
- |`MASSA DE TESTE`|Login e senha inválidos <br> E-mail: naruto.top@gmail.com <br> Senha: Tanjiro01*|
- |`PASSOS`| * Acessar o Navegador <br> * Informar a Url do site <br> * Visualizar a página principal <br> * Informar login e senha inválidos|
- |`CRITÉRIOS DE ÉXITO`| O sistema deve emitir a mensagem "e-mail ou senha incorretos"|
- 
- ![TelaLoginUsuarioInvalido](https://user-images.githubusercontent.com/78831493/139755171-64a1c31d-bb6d-4d61-8f35-ed6b1e713c4b.jpeg)
-
- *Evidência de teste*
- 
 <br> <br>
 
- |`CASO DE TESTE`| CT05 Cadastro de novos usuários|
+ |`CASO DE TESTE`| CT04 Cadastro de novos usuários|
  |:-----------:|:---------:|
  |`REQUISITOS ASSOCIADOS`|RF - 02 O site deve apresentar um link na página de login para cadastro de novos usuários através de um formulário. Este formulário deve conter: * Nome <br> * Data de nascimento <br> * E-mail <br> * Confirmar e-mail <br> * Senha <br> * Confirmar Senha.|
  |`OBJETIVO DO TESTE`| * Verificar se o formulário de cadastro é exibido para novos usuários, quando este acessa o link. <br> * Verificar se os campos citados em *Requisitos Associados*, estão sendo exibidos corretamente. <br> * Verificar se o usuário consegue logar após o cadastro.|
@@ -85,7 +71,7 @@ Os testes funcionais serão realizados conforme descrito abaixo:
  
 
  
- |`CASO DE TESTE`| CT06 Criação de domínio de administrador|
+ |`CASO DE TESTE`| CT05 Criação de domínio de administrador|
  |:-----------:|:---------:|
  |`REQUISITOS ASSOCIADOS`|RF-08| Deverá ser criado um domínio de administrador para criação dos animes e suas descrições|
  |`OBJETIVO DO TESTE`| Verificar a autenticação do domínio de administrador e sua criação em banco de dados|
@@ -102,7 +88,7 @@ Os testes funcionais serão realizados conforme descrito abaixo:
 
   <br> <br>
   
- |`CASO DE TESTE`|CT07 Administrador poder criar, alterar e excluir gêneros de anime.|
+ |`CASO DE TESTE`|CT06 Administrador poder criar, alterar e excluir gêneros de anime.|
  |:-----------:|:---------:|
  |`REQUISITOS ASSOCIADOS`|RF-04 O site deve possibilitar que o administrador crie, altere e exclua gêneros.|
  |`OBJETIVO DO TESTE`| Verificar se o radius para essas funções estão clicáveis e funcionando.  |
@@ -114,7 +100,7 @@ Os testes funcionais serão realizados conforme descrito abaixo:
  
   <br> <br>
   
- |`CASO DE TESTE`|CT08 Administrador poder visualizar e excluir usuários.|
+ |`CASO DE TESTE`|CT07 Administrador poder visualizar e excluir usuários.|
  |:-----------:|:---------:|
  |`REQUISITOS ASSOCIADOS`|RF-04 O site deve possibilitar que o administrador visualize e exclua usuários.|
  |`OBJETIVO DO TESTE`| Verificar se o radius para essas funções estão clicáveis e funcionando.  |
@@ -126,7 +112,7 @@ Os testes funcionais serão realizados conforme descrito abaixo:
 
   <br> <br>
   
- |`CASO DE TESTE`|CT09 Administrador poder editar animes. |
+ |`CASO DE TESTE`|CT08 Administrador poder editar animes. |
  |:-----------:|:---------:|
  |`REQUISITOS ASSOCIADOS`|RF-07 O site deve possibilitar que o administrador edite animes.|
  |`OBJETIVO DO TESTE`| Verificar se o radius para essas funções estão clicáveis e funcionando.  |
@@ -138,7 +124,7 @@ Os testes funcionais serão realizados conforme descrito abaixo:
  
  <br> <br>
  
- |`CASO DE TESTE`|CT10 Logout com sucesso de usuário logado .|
+ |`CASO DE TESTE`|CT9 Logout com sucesso de usuário logado .|
  |:-----------:|:---------:|
  |`REQUISITOS ASSOCIADOS`|RF-01 O site deve apresentar um botão de Sair, e fazer logout do site, voltando para tela de login .|
  |`OBJETIVO DO TESTE`| Verificar se o usuário será desconectado e voltará para página de login .|
