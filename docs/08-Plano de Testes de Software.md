@@ -7,7 +7,7 @@ Para realização dos casos de teste, serão necessários alguns requisitos:
 * Conectividade com internet
 * Massa de dados gerada em banco de dados. 
 
-Os testes funcionais serão realizados conforme descrito abaixo:
+*Os testes funcionais serão realizados conforme descrito abaixo:
  
  
  |`CASO DE TESTE`| CT01 Login com sucesso de usuário cadastrado|
