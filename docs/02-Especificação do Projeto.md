@@ -29,14 +29,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01| O site deve apresentar uma página de login para autenticação de usuários cadastrados.| `ALTA` | 
-|RF-02| O site deve apresentar um link na página de login para cadastro de novos usuários através de um formulário. <br> Este formulário deve conter: <br> * Nome <br> * Data de nascimento <br> * E-mail <br> * Senha <br>.| `ALTA`  |
-|RF-03| O acesso ao conteúdo do site será permitido apenas, a usuário previamente cadastrados.|`ALTA`|
-|RF-04| Deverá ser criado um domínio de administrador para criação dos animes e suas descrições|`ALTA`|
-|RF-05| O usuário poderá criar uma lista de animes que está assistindo no momento e marcar seu progresso que será diferenciado por cores.  Animes já assistidos *em verde*, os animes em andamento *de amarelo*, animes para assistir depois *em roxo.*| `BAIXA` |
-|RF-06| O site deve emitir uma lista com o nome” minha lista de animes”. | `BAIXA` |
-|RF-07|O site deverá conter sinopse dos animes.| `BAIXA` |
-|RF-08|O site deverá permitir que o administrador adicione gênero e altere animes.| `BAIXA` |
+|RF-01| O aplicativo deve apresentar uma tela de login para autenticação de usuários cadastrados.| `ALTA` | 
+|RF-02| O aplicativo deve apresentar um botão na tela de login para cadastro de novos usuários através de um formulário. <br> Este formulário deve conter: <br> * Nome <br> * Data de nascimento <br> * E-mail <br> * Senha <br>.| `ALTA`|
+|RF-03| O acesso a lista de animes será permitido apenas, a usuário previamente cadastrados no aplicativo.|`ALTA`|
+|RF-04| O aplicativo deverá apresentar uma tela home com imagem e nota do anime. Para visualizar essa tela o usuário não precisa estar logado.<br> 4.a Ao clicar na imagem do anime, ele irá exibir outra tela com as informações de sinopse e temporadas.|`ALTA`|
+|RF-05| O usuário poderá criar uma lista de animes que está assistindo no momento e salvar seu progresso que será diferenciado por listas sendo elas "assitidos", "em andamento" e "assitir depois".| `ALTA` |
+|RF-06|O aplicativo deverá consumir de uma API as informações referentes ao anime.| `ALTA` |
+|RF-07|
 
 ### Requisitos não Funcionais
 A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
