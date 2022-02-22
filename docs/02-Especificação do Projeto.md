@@ -5,9 +5,9 @@
 | `Persona` | `Idade` | `Descrição` | `Plataformas e apps utilizados` | `Motivações` | `Frustrações`  |  `Hobbies` |
 |:-----------:|:---------:|:-------------:|:---------------------------------:|:--------------:|:----------------:|:------------:|
 |Carlos Eduardo|15|Estudante do ensino médio. Gosta de jogos online e possui facilidade para uso de internet.|Instagram, Netflix, Amazon Prime, Crunchyroll, Youtube|Acompanhar de forma organizada os animes que está assistindo e conhecer novos animes.|Ficar perdido quanto ao episódio  que está no momento.|Filmes e séries, taekwondo|
-|Maria Julia|29| Fisioterapeuta, apaixonada por animes de suspense, faz uso computador no dia a dia, possui facilidade para o uso da internet.|Instagram, Netflix, Animes Fire, Uber, Ifood|Conseguir filtrar os melhores animes de acordo com o gênero que ela mais gosta, suspense e conhecer novos animes|Conseguir feedbacks reais a respeito da qualidade dos animes.|Caminhadas ao ar livre e Ir ao cinema|
-|Ana Laura|19|Auxiliar de estoque, possui uma rotina intensa de trabalho, precisando se organizar dentro das suas atividades. Informa aptidão no uso da internet.|Instagram, Netflix, Nubank, Twitter, Ifood|Encontrar um lugar onde eu consiga interagir com outros usuários dando notas para meus animes favoritos.|Não consigo encontrar um local exclusivo para catalogar e falar sobre animes.|Ir a restaurantes e Ouvir músicas|
-|Pedro Ferraz|18|Estudante do pré-vestibular, fã de animes, curte programação.|Instagram, Netflix, YouTube|Colocar em prática estudos de programação e criar uma aplicação para gerenciar meus animes favoritos.|Falta de um local voltado para catalogar e falar sobre animes.| Jogar vídeo game e assitir séries.| 
+|Maria Julia|29| Fisioterapeuta, apaixonada por animes de suspense, faz uso computador no dia a dia, possui facilidade para o uso da internet.|Instagram, Netflix, Animes Fire, Uber, Ifood|Conseguir pesquisar os melhores animes de acordo com o gênero que ela mais gosta, e conhecer novos animes|Conseguir feedbacks reais a respeito da qualidade dos animes.|Caminhadas ao ar livre e Ir ao cinema|
+|Ana Laura|19|Auxiliar de estoque, possui uma rotina intensa de trabalho, precisando se organizar dentro das suas atividades. Informa aptidão no uso da internet.|Instagram, Netflix, Nubank, Twitter, Ifood|Encontrar um lugar onde possa dar notas para seus animes favoritos.|Não consegue encontrar um local para descobrir outros animes e visualizar suas notas.|Ir a restaurantes e Ouvir músicas|
+|Pedro Ferraz|18|Estudante do pré-vestibular, fã de animes, curte programação.|Instagram, Netflix, YouTube|Colocar em prática estudos de programação e criar uma aplicação para gerenciar seus animes favoritos.|Falta de um local voltado para catalogar e descobrir animes.| Jogar vídeo game e assitir séries.| 
 
 
 ## Histórias de Usuários
@@ -18,10 +18,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 |Eu, Carlos Eduardo|quero marcar em qual episódio da temporada e em qual temporada de um determinado anime eu estou|para conseguir me organizar com os muitos títulos que assisto e não me perder nos episódios.|
 |Eu, Maria Julia|quero conseguir ver feedbacks de vários animes| para encontrar novas obras para acompanhar.|
-|Eu Ana Laura| desejo criar uma lista e catalogar as obras que venho assistindo e interagir com demais usuários| para me organizar melhor e trocar experiências com outras pessoas | 
-|Eu, João Paulo|desejo ter a possibilidade de criar  listas com animes que desejo assistir|para que futuramente eu possa seguir minha lista e assistir os animes que desejo.|
-|Eu, Lucas Silva|desejo ter a possibilidade de compartilhar minha lista de anime com os meus amigos e filhos|para conhecer novos animes e também acompanhar o que meus amigos estão assistindo.|  
-|Eu, Pedro Ferraz|desejo criar uma aplicação capaz de catalogar animes|para fixar meu aprendizado adquiridos em cursos de programação.|
+|Eu Ana Laura| desejo criar uma lista e catalogar as obras que venho assistindo e avaliá-las| para ajudar outros usuários a descobrirem bons animes e também para que eu possa descobrir bons animes. | 
+|Eu, Pedro Ferraz|desejo criar uma aplicação capaz de catalogar e gerenciar animes|para fixar meu aprendizado adquiridos em cursos de programação.|
 
 ## Requisitos
 
