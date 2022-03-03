@@ -2,7 +2,7 @@
 
 `Analise e desenvolvimento de sistemas`
 
-`Segundo Semestre`
+`Terceiro Semestre`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
