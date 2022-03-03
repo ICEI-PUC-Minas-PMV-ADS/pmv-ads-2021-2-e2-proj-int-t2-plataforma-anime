@@ -32,23 +32,23 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-01| O aplicativo deve apresentar uma tela de login para autenticação de usuários cadastrados.| `ALTA` | 
 |RF-02| O aplicativo deve apresentar um botão na tela de login para cadastro de novos usuários através de um formulário. <br> Este formulário deve conter: <br> * Nome <br> * Data de nascimento <br> * E-mail <br> * Senha <br>.| `ALTA`|
 |RF-03| O acesso a lista de animes será permitido apenas, a usuário previamente cadastrados no aplicativo.|`ALTA`|
-|RF-04| O aplicativo deverá apresentar uma tela home com imagem e nota do anime. Para visualizar essa tela o usuário não precisa estar logado.<br> 4.a Ao clicar na imagem do anime, ele irá exibir outra tela com as informações de sinopse e temporadas.|`ALTA`|
+|RF-04| O aplicativo deverá apresentar uma tela home com imagem e nota do anime. Para visualizar essa tela o usuário não precisa estar logado. Ao clicar na imagem do anime, ele irá exibir outra tela com as informações de sinopse e temporadas.|`ALTA`|
 |RF-05| O usuário poderá criar uma lista de animes que está assistindo no momento e salvar seu progresso que será diferenciado por listas sendo elas "assitidos", "em andamento" e "assitir depois".| `ALTA` |
 |RF-06|O aplicativo deverá consumir de uma API as informações referentes ao anime.| `ALTA` |
-|RF-07|
+|RF-07|O aplicativo deverá possibilitar um mecanismo de busca.|`MÉDIA`|
+|RF-08|O aplicativo deve possibilitar a avaliação de animes.|`BAIXO`|
 
 ### Requisitos não Funcionais
 A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-01| As informações cadastrais do usuário devem estar disponíveis apenas para o usuário e o administrador do sistema |`ALTA`| 
-|RNF-02| O site deverá utilizar tecnologias Front-end como HTML, CSS e JavaScript|`ALTA`| 
-|RNF-03| O site deverá utilizar a linguagem C# para estruturar o Back - End|`ALTA`|
-|RNF-04|O site deve ser compatível com os navegadores Chrome e Explorer|`MEDIA`|
-|RFN-05|O layout do site deverá trabalhar com um esquema de cores que atenda visualmente o usuário portador de daltonismo|`BAIXA`|
-|RFN-06|O site deverá atender aos requisitos de leitores de tela para ser acessível para deficientes visuais|`BAIXA`|
-|RFN-07|O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada.|`BAIXA`|
+|RNF-01|As informações cadastrais do usuário devem estar disponíveis apenas para o usuário.|`ALTA`| 
+|RNF-02|O site deverá utilizar tecnologias Front-end como HTML, CSS e JavaScript|`ALTA`| 
+|RNF-03|O site deverá utilizar a linguagem C# para estruturar o Back - End|`ALTA`|
+|RNF-04|O aplicativo deve ser compatível com os sistemas operacionais Android e IOS.|`ALTA`|
+|RFN-05|O layout do aplicativo deverá trabalhar com um esquema de cores que atenda visualmente o usuário portador de daltonismo|`BAIXA`|
+|RFN-06|O aplicativo deverá atender aos requisitos de leitores de tela para ser acessível para deficientes visuais|`BAIXA`|
 
 ## Restrições
 
