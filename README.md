@@ -8,7 +8,6 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Bruno Castanheira Marquezine
 * Gustavo Santos de Carvalho
 * Igor Giovane da Costa
 * Lais Vitória Andrade Silva
@@ -16,7 +15,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Orientador
 
-* Rosilane Mota
+* 
 
 ## Instruções de utilização
 
