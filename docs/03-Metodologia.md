@@ -36,20 +36,16 @@ A equipe está organizada da seguinte maneira <br>
 * *Scrum Master:* Lorena Andrade Silva <br>
 * *Product Owner:* Igor Giovane da Costa e Lais Vitoria Andrade Silva <br>
 * *Equipe de Desenvolvimento:* <br>
-                              Bruno Castanheira Marquezine <br>
                               Gustavo Santos de Carvalho <br>
                               Igor Giovane da Costa <br>
                               Lais Vitória Andrade Silva <br>
                               Lorena Andrade Silva <br>
-                              Pablo Djorkaeff dos Santos <br>
-                             
+                                                        
 * *Equipe de Design:* <br>
-                              Bruno Castanheira Marquezine <br>
                               Gustavo Santos de Carvalho <br>
                               Igor Giovane da Costa <br>
                               Lais Vitória Andrade Silva <br>
                               Lorena Andrade Silva <br>
-                              Pablo Djorkaeff dos Santos <br>
 
 ### Processo
 
