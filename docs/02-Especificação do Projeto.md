@@ -56,7 +56,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|RE-01|O projeto deverá ser entregue funcionando no final do semestre letivo, sem ultrapassar a data 15/12/2021.|
+|RE-01|O projeto deverá ser entregue funcionando no final do semestre letivo, sem ultrapassar a data 22/06/2022.|
 |RE-02|A equipe não pode subcontratar o desenvolvimento do trabalho|
 |RE-03|A equipe desenvolverá o projeto com os integrantes que compõem o grupo e todos deverão estar cientes sobre as funcionalidades do código e sistema/website.|
 
@@ -67,20 +67,18 @@ A seguir encontram-se os Casos de Uso e o Diagrama de Casos de Uso.
 
 | Caso de Uso| Descrição|
 |:-----------:|:---------:|
+|Cadastro de novo usuário|Cadastra um novo usuário, caso o usuário já esteja cadastrado no aplicativo, deve retornar a mensagem "Usuário já cadastrado" |
 |Fazer login|Recebe as credenciais já cadastradas do usuário e em seguida é encaminhado para Verificar Credenciais.|
 |Verificar Credenciais|Verifica e valida as credenciais do usuário. Caso estejam incorretas então o sistema irá exibir erro de login.|
 |Avaliar animes|Registra a avaliação feita pelo usuário em determinada obra.|
 |Marcar episódios/temporadas|Registra as informações sobre o progresso do usuário em determinada obra. Exemplo: episódios vistos e temporadas finalizadas.|
 |Pesquisar animes|Exibir os resultados de acordo com a busca do usuário.|
 |Criar sua lista|Salva as obras que o usuário já tenha assistido, está assistindo ou queira assistir, podendo adicionar ou excluir determinadas obras a qualquer momento.|
-|Filtrar Preferências |Filtra o conteúdo de acordo com as preferências do usuário.|
-|Listar Animes|Os animes serão adicionados e receberão as seguintes referências: sinopse, ano de lançamento, número de temporadas e episódios.|
-|Excluir animes|Os animes poderão ser excluídos do site pelo administrador.|
 
 |Ator|Descrição|
 |:-----------:|:---------:|
 |Otaku|Público-alvo da aplicação, ou seja, o usuário.|
-|Administrador|Gerencia o conteúdo existente na página.|
+
 
 
 ![image](https://user-images.githubusercontent.com/78831493/134986218-863488d7-1f09-4705-8b7e-614f0b4356a8.png) <br>
