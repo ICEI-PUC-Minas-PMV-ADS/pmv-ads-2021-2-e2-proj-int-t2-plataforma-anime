@@ -85,4 +85,7 @@ A seguir encontram-se os Casos de Uso e o Diagrama de Casos de Uso.
  <br>
                      *Figura 1: Representação do Diagrama de Casos de Uso
                                 Fonte: elaborado pelos autores*
-
+                                
+                                
+## Matriz de Rastreabilidade de Requisitos                                 
+## Gerenciamento e Planejamento de Cronograma, Custos e Pessoal do Projeto
