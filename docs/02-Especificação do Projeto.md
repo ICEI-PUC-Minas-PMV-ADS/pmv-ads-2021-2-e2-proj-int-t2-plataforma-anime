@@ -79,12 +79,11 @@ A seguir encontram-se os Casos de Uso e o Diagrama de Casos de Uso.
 |:-----------:|:---------:|
 |Otaku|Público-alvo da aplicação, ou seja, o usuário.|
 
-
-![Diagrama de caso de uso PUC - Diagrama de caso de uso (3)](https://user-images.githubusercontent.com/78181968/156860398-b211ae17-dc17-432c-9843-9488f5ad6394.png)
-
+![Diagrama de caso de uso PUC - Diagrama de caso de uso (2)](https://user-images.githubusercontent.com/78181968/157045378-86c26524-a94a-4e3a-a6f4-1a2b100eb2d0.png)
  <br>
-                     *Figura 1: Representação do Diagrama de Casos de Uso
-                                Fonte: elaborado pelos autores*
+ 
+                                                    Figura 1: Representação do Diagrama de Casos de Uso
+                                                              Fonte: elaborado pelos autores 
                                 
                                 
 ## Matriz de Rastreabilidade de Requisitos                                 
