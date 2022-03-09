@@ -77,7 +77,9 @@ A seguir encontram-se os Casos de Uso e o Diagrama de Casos de Uso.
 
 |Ator|Descrição|
 |:-----------:|:---------:|
-|Otaku|Público-alvo da aplicação, ou seja, o usuário.|
+|Usuário sem cadastro|Poderá ter acesso aos animes, sinopse e notas, porém não pode criar lista de animes.|
+|Usuário com cadastro|Poderá ter acesso aos animes, sinopse e notas, e poderá criar lista de animes.|
+|API|Irá fornecer as informações sobre os animes para o aplicativo.|
 
 ![Diagrama de caso de uso PUC - Diagrama de caso de uso (2)](https://user-images.githubusercontent.com/78181968/157045378-86c26524-a94a-4e3a-a6f4-1a2b100eb2d0.png)
  <br>
