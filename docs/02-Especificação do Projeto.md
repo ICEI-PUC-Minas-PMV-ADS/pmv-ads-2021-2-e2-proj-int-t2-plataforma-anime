@@ -16,9 +16,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Eu, Carlos Eduardo|quero marcar em qual episódio da temporada e em qual temporada de um determinado anime eu estou|para conseguir me organizar com os muitos títulos que assisto e não me perder nos episódios.|
-|Eu, Maria Julia|quero conseguir ver feedbacks de vários animes| para encontrar novas obras para acompanhar.|
-|Eu Ana Laura| desejo criar uma lista e catalogar as obras que venho assistindo e avaliá-las| para ajudar outros usuários a descobrirem bons animes e também para que eu possa descobrir bons animes. | 
+|Eu, Carlos Eduardo|quero marcar em qual episódio/temporada de um determinado anime eu estou|para conseguir me organizar com os vários títulos que assisto e não me perder nos episódios.|
+|Eu, Maria Julia|quero conseguir ver a nota de vários animes| para encontrar novas obras para acompanhar.|
+|Eu Ana Laura| desejo criar uma lista e catalogar as obras que venho assistindo e avaliá-las| para ajudar outros usuários a descobrirem bons animes e também para que eu possa descobrir novos animes. | 
 |Eu, Pedro Ferraz|desejo criar uma aplicação capaz de catalogar e gerenciar animes|para fixar meu aprendizado adquiridos em cursos de programação.|
 
 ## Requisitos
