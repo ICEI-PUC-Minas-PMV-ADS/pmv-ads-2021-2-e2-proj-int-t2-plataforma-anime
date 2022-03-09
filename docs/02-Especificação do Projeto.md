@@ -81,7 +81,8 @@ A seguir encontram-se os Casos de Uso e o Diagrama de Casos de Uso.
 |Usuário com cadastro|Poderá ter acesso aos animes, sinopse e notas, e poderá criar lista de animes.|
 |API|Irá fornecer as informações sobre os animes para o aplicativo.|
 
-![Diagrama de caso de uso PUC - Diagrama de caso de uso (2)](https://user-images.githubusercontent.com/78181968/157045378-86c26524-a94a-4e3a-a6f4-1a2b100eb2d0.png)
+![Diagrama de caso de uso PUC - Diagrama de caso de uso (5)](https://user-images.githubusercontent.com/78181968/157550032-0b362ae1-cae0-4317-a0bc-d78feb7664a3.png)
+
  <br>
  
                                                     Figura 1: Representação do Diagrama de Casos de Uso
