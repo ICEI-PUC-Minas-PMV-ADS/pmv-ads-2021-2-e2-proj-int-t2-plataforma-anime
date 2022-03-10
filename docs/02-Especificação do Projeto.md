@@ -44,11 +44,10 @@ A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-01|As informações cadastrais do usuário devem estar disponíveis apenas para o usuário.|`ALTA`| 
-|RNF-02|O site deverá utilizar tecnologias Front-end como HTML, CSS e JavaScript|`ALTA`| 
-|RNF-03|O site deverá utilizar a linguagem C# para estruturar o Back - End|`ALTA`|
-|RNF-04|O aplicativo deve ser compatível com os sistemas operacionais Android e IOS.|`ALTA`|
-|RFN-05|O layout do aplicativo deverá trabalhar com um esquema de cores que atenda visualmente o usuário portador de daltonismo|`BAIXA`|
-|RFN-06|O aplicativo deverá atender aos requisitos de leitores de tela para ser acessível para deficientes visuais|`BAIXA`|
+|RNF-02|O site deverá utilizar tecnologias como React Native |`ALTA`| 
+|RNF-03|O aplicativo deve ser compatível com os sistemas operacionais Android e IOS.|`ALTA`|
+|RFN-04|O layout do aplicativo deverá trabalhar com um esquema de cores que atenda visualmente o usuário portador de daltonismo|`BAIXA`|
+|RFN-05|O aplicativo deverá atender aos requisitos de leitores de tela para ser acessível para deficientes visuais|`BAIXA`|
 
 ## Restrições
 
