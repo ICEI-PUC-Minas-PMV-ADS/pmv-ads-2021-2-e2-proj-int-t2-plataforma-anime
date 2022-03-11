@@ -33,10 +33,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-02| O aplicativo deve apresentar um botão na tela de login para cadastro de novos usuários através de um formulário. <br> Este formulário deve conter: <br> * Nome <br> * Data de nascimento <br> * E-mail <br> * Senha <br>| `ALTA`|
 |RF-03| O acesso a lista de animes será permitido apenas, a usuário previamente cadastrados no aplicativo.|`ALTA`|
 |RF-04| O aplicativo deverá apresentar uma tela home com imagem e nota do anime. Para visualizar essa tela o usuário não precisa estar logado. Ao clicar na imagem do anime, ele irá exibir outra tela com as informações de sinopse e temporadas.|`ALTA`|
-|RF-05| O usuário poderá criar uma lista de animes que está assistindo no momento e salvar seu progresso que será diferenciado por listas sendo elas "assitidos", "em andamento" e "assitir depois".| `ALTA` |
-|RF-06|O aplicativo deverá consumir de uma API as informações referentes ao anime.| `ALTA` |
-|RF-07|O aplicativo deverá possibilitar um mecanismo de busca.|`MÉDIA`|
-|RF-08|O aplicativo deve possibilitar a avaliação de animes.|`BAIXO`|
+|RF-05| O usuário poderá criar uma lista pessoal com os animes que ele desejar. Esses animes serão separados por status, sendo eles "assitidos", "em andamento" e "assitir depois".| `ALTA` |
+|RF-06| O usuário poderá marcar a temporada e o episódio em que ele está em um determinado anime.| `ALTA` |
+|RF-07|O aplicativo deverá consumir de uma API as informações referentes ao anime.| `ALTA` |
+|RF-08|O aplicativo deverá possibilitar um mecanismo de busca.|`MÉDIA`|
+|RF-09|O aplicativo deve possibilitar a avaliação de animes.|`BAIXO`|
 
 ### Requisitos não Funcionais
 A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
