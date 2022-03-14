@@ -37,7 +37,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-06| O usuário poderá marcar a temporada e o episódio em que ele está em um determinado anime.| `ALTA` |
 |RF-07|O aplicativo deverá consumir de uma API as informações referentes ao anime.| `ALTA` |
 |RF-08|O aplicativo deverá possibilitar um mecanismo de busca.|`MÉDIA`|
-|RF-09|O aplicativo deve possibilitar a avaliação de animes.|`BAIXO`|
+|RF-09|O aplicativo deve possibilitar a avaliação de animes, por um usuário previamente cadastrado.|`BAIXO`|
 
 ### Requisitos não Funcionais
 A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
